@@ -1,0 +1,444 @@
+﻿persona,dia,fecha,archivo,carpeta_drive,carpeta_id,grupo,n_fresas_aprox,sana,moho_gris_temprano,moho_gris_avanzado,pudricion_blanda,antracnosis,magulladura,deshidratacion,inmadura,dudoso,calidad_foto,confianza,notas
+Diego,1,2026-10-13,20261013_221323.jpg,Día 1 - Martes 13 de Octubre,184bhd3j1xQtwzMe-f34uNPeyWYUajduT,G,30,1,0,0,0,0,0,1,1,0,"fondo contaminado (cables arriba, ropa abajo)",alta,"Día 1. Unas 30 fresas sueltas sobre mesa blanca; la mayoría sanas, muchas inmaduras (hombros blancos); una rojo vino sobremadura. Flash con reflejo central."
+Diego,1,2026-10-13,20261013_221403.jpg,Día 1 - Martes 13 de Octubre,184bhd3j1xQtwzMe-f34uNPeyWYUajduT,G,30,1,0,0,0,0,0,1,1,0,"fondo contaminado (cables arriba, ropa abajo)",alta,Casi duplicado del anterior.
+Diego,2,2026-10-14,20261014_134204.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,30,1,1,0,0,0,0,1,1,0,"fondo MUY contaminado (monitor, cables, ropa roja)",media,"Día 2 (tarde). Las ~30 fresas del día 1, pequeñas en el cuadro. Recortar."
+Diego,2,2026-10-14,20261014_134330.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,9,0,1,1,0,0,0,1,0,0,fondo contaminado (ropa abajo),alta,Subgrupo de 9 separado: varias con velo gris-blanco y piel opaca; manchas de jugo en la mesa.
+Diego,2,2026-10-14,20261014_134338.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,9,0,1,1,0,0,0,1,0,0,fondo contaminado,alta,Acercamiento al subgrupo: velo gris aterciopelado en 3-4 fresas (moho gris fase 2).
+Diego,2,2026-10-14,20261014_134607.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,24,1,0,0,0,0,0,0,1,0,"fondo MUY contaminado (cables, ropa roja)",media,Resto del lote (~24) separado: mayoría sanas o inmaduras.
+Diego,2,2026-10-14,20261014_134613.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,24,1,0,0,0,0,0,0,1,0,"fondo MUY contaminado (monitor, cables)",media,Casi duplicado.
+Diego,2,2026-10-14,20261014_223823.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,sobreexpuesta; ropa abajo,media,Noche. 12 fresas en 2 filas; varias con velo gris; mancha de jugo naranja.
+Diego,2,2026-10-14,20261014_223844.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,fondo MUY contaminado; sobreexpuesta,media,Mismo grupo de 12.
+Diego,2,2026-10-14,20261014_223853.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,fondo MUY contaminado,media,Mismo grupo.
+Diego,2,2026-10-14,20261014_223941.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,sobreexpuesta,media,"Acercamiento: 3-4 con velo gris-blanco, piel opaca."
+Diego,2,2026-10-14,20261014_224002.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,sobreexpuesta,alta,Más cerca: velo gris-blanco y piel opaca en varias; jugo bajo una fresa. La mejor del día 2.
+Diego,2,2026-10-14,20261014_224011.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,12,1,1,1,0,0,0,1,0,0,sobreexpuesta; ropa abajo,media,Mismo grupo.
+Diego,2,2026-10-14,20261014_224051.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,3,0,0,1,0,0,0,0,0,0,MUY sobreexpuesta (fondo quemado),media,3 fresas cubiertas de velo blanco-gris.
+Diego,2,2026-10-14,20261014_224055.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,3,0,0,1,0,0,0,0,0,0,MUY sobreexpuesta,media,Casi duplicado.
+Diego,2,2026-10-14,20261014_224100.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,3,0,0,1,0,0,0,0,0,0,fondo contaminado (cables); sobreexpuesta,media,Mismas 3.
+Diego,2,2026-10-14,20261014_224347.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,8,1,0,0,0,0,0,0,1,0,fondo contaminado (cables),media,Grupo de 8 más sanas; pequeñas en el cuadro.
+Diego,2,2026-10-14,20261014_224354.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,8,1,0,0,0,0,0,0,1,0,fondo MUY contaminado (monitor),media,Mismo grupo.
+Diego,2,2026-10-14,20261014_224414.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,8,1,0,0,0,0,0,0,1,0,"fondo contaminado (cables, ropa)",media,Mismo grupo.
+Diego,2,2026-10-14,20261014_224511.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,9,1,0,0,0,0,0,0,1,0,fondo contaminado,media,Grupo de 9 sanas/inmaduras.
+Diego,2,2026-10-14,20261014_224517.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,9,1,0,0,0,0,0,0,1,0,fondo MUY contaminado (monitor),media,Mismo grupo.
+Diego,2,2026-10-14,20261014_224539.jpg,Día 2 - Miércoles 14 de Octubre,1Mqs7jg7JYBBRVpGa9dqHeZxdkNQ0_esD,G,9,1,0,0,0,0,0,0,1,0,sobreexpuesta; ropa abajo,media,Mismo grupo.
+Diego,3,2026-10-15,20261015_221800.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,sobreexpuesta,alta,Día 3. 5 fresas cubiertas de pelusa gris (las del subgrupo enfermo del día 2).
+Diego,3,2026-10-15,20261015_221805.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,fondo contaminado (cables),alta,"Mismas 5, más cerca."
+Diego,3,2026-10-15,20261015_221817.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,sobreexpuesta,alta,Mismas 5.
+Diego,3,2026-10-15,20261015_221821.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,fondo contaminado (borde sup),alta,Mismas 5.
+Diego,3,2026-10-15,20261015_221825.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,sobreexpuesta,alta,Acercamiento: pelusa gris densa; la de la derecha con mancha gris en un lado.
+Diego,3,2026-10-15,20261015_221829.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,5,0,0,1,0,0,0,0,0,0,fondo contaminado (cables),alta,Acercamiento.
+Diego,3,2026-10-15,20261015_222524.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,10,1,1,1,0,0,0,1,0,0,MUY sobreexpuesta,media,"Grupo de ~10: algunas con velo gris, otras sanas; manchas de jugo."
+Diego,3,2026-10-15,20261015_222537.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,10,1,1,1,0,0,0,1,0,0,fondo contaminado (cables); sobreexpuesta,media,Mismo grupo.
+Diego,3,2026-10-15,20261015_222554.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,10,1,1,1,0,0,0,1,0,0,fondo contaminado (cables); sobreexpuesta,media,Mismo grupo.
+Diego,3,2026-10-15,20261015_222558.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,10,1,1,1,0,0,0,1,0,0,MUY sobreexpuesta,media,Acercamiento: 2-3 con mancha gris lateral.
+Diego,3,2026-10-15,20261015_222617.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,10,1,1,1,0,0,0,1,0,0,MUY sobreexpuesta,media,Acercamiento.
+Diego,3,2026-10-15,20261015_222859.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,12,1,0,0,0,0,0,1,0,0,limpio; sobreexpuesta centro,media,Grupo de 12 más sanas; mucho jugo en la mesa (vienen de fresas ya retiradas).
+Diego,3,2026-10-15,20261015_222912.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,12,1,0,0,0,0,0,1,0,0,"fondo MUY contaminado (cables, repisa)",media,Mismo grupo de 12.
+Diego,3,2026-10-15,20261015_222916.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,12,1,0,0,0,0,0,1,0,0,fondo MUY contaminado (cables),media,Mismo grupo.
+Diego,3,2026-10-15,20261015_222921.jpg,Día 3 - Jueves 15 de Octubre,13hFlWQ2mBHd0Gw6JeuevsHZ3lnaM3Ca7,G,12,1,0,0,0,0,0,1,0,0,"fondo MUY contaminado (cables, ropa roja)",media,Mismo grupo.
+Diego,4,2026-10-16,20261016_211852.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,limpio; insecto en el cuadro,alta,"Día 4. 6 fresas: 5 cubiertas de pelusa gris, 1 sana-naranja. Hay un insecto (mosca) arriba a la derecha."
+Diego,4,2026-10-16,20261016_211857.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,fondo contaminado (cables); sobreexpuesta,alta,"Mismas 6, más cerca."
+Diego,4,2026-10-16,20261016_211901.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,MUY sobreexpuesta,alta,Acercamiento: pelusa gris cubriendo todo el fruto.
+Diego,4,2026-10-16,20261016_211906.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,fondo contaminado (cables); insecto,alta,Mismas 6.
+Diego,4,2026-10-16,20261016_211911.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,fondo contaminado; sobreexpuesta,alta,Mismas 6.
+Diego,4,2026-10-16,20261016_211923.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,6,1,0,1,0,0,0,0,0,0,ropa abajo; insecto,media,"Mismas 6, lejos."
+Diego,4,2026-10-16,20261016_212247.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,15,1,1,0,0,0,0,1,0,0,limpio (cable arriba),media,"Grilla de 15 (4 filas): oscuras y opacas, 3-4 con velo gris temprano."
+Diego,4,2026-10-16,20261016_212252.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,15,1,1,0,0,0,0,1,0,0,"fondo MUY contaminado (monitor, cables)",media,Mismas 15.
+Diego,4,2026-10-16,20261016_212257.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,15,1,1,0,0,0,0,1,0,0,fondo oscuro arriba,media,"Mismas 15, desde otro ángulo."
+Diego,4,2026-10-16,20261016_212307.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,15,1,1,0,0,0,0,1,0,0,fondo MUY contaminado (monitor),media,Mismas 15.
+Diego,4,2026-10-16,20261016_212316.jpg,Día 4 - Viernes 16 de Octubre,10VjxGU9338RBjsqE1Tw_t0BlKJRFkAUp,G,15,1,1,0,0,0,0,1,0,0,cable arriba; ropa abajo,media,Mismas 15: velo gris en 3-4; manchas de jugo.
+Andrés,1,2026-10-08,IMG_20261008_201308592_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra; fondo costal,alta,"Día 1. Bandeja con fresas apiladas, sanas; algunas inmaduras."
+Andrés,1,2026-10-08,IMG_20261008_201314496_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Apiladas, lateral."
+Andrés,1,2026-10-08,IMG_20261008_201319144_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,Apiladas.
+Andrés,1,2026-10-08,IMG_20261008_201325386_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,"fondo contaminado (reja, pared)",media,"Apiladas, ángulo bajo."
+Andrés,1,2026-10-08,IMG_20261008_201331729_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo contaminado (silla),media,"Apiladas, ángulo bajo."
+Andrés,1,2026-10-08,IMG_20261008_201336784_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Apiladas, cenital."
+Andrés,1,2026-10-08,IMG_20261008_201342535_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo oscuro arriba,media,Apiladas.
+Andrés,1,2026-10-08,IMG_20261008_201348280_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo contaminado (reja),media,"Apiladas, ángulo bajo."
+Andrés,1,2026-10-08,IMG_20261008_201352797_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Apiladas, cenital lejos."
+Andrés,1,2026-10-08,IMG_20261008_201402840_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra; fondo oscuro,media,Apiladas.
+Andrés,1,2026-10-08,IMG_20261008_201447450_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,P1,10,1,0,0,0,0,0,0,1,0,costal blanco,alta,"Grupo P1: 10 fresas sueltas sobre costal, sanas. Gotas de jugo rojo en el costal."
+Andrés,1,2026-10-08,IMG_20261008_201453479_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Grupo G1: 20 fresas en grilla 4x5 dentro de la bandeja, sanas. Referencia día 1 del experimento de contagio."
+Andrés,1,2026-10-08,IMG_20261008_201458521_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,P1,10,1,0,0,0,0,0,0,1,0,costal; bandeja al borde,alta,P1 sueltas.
+Andrés,1,2026-10-08,IMG_20261008_201502513_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,P1,10,1,0,0,0,0,0,0,1,0,costal; fondo oscuro,media,"P1, ángulo bajo."
+Andrés,1,2026-10-08,IMG_20261008_201702608_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra; fondo contaminado,media,G1 ángulo bajo.
+Andrés,1,2026-10-08,IMG_20261008_201708514_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,P1,10,1,0,0,0,0,0,0,1,0,costal,alta,P1.
+Andrés,1,2026-10-08,IMG_20261008_201719904_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,G1 cenital.
+Andrés,1,2026-10-08,IMG_20261008_201724274_AE.jpg,Fresa Dia 1,1QZNvwIYqRrEROUkb60CMlj0UrbN-stfA,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"G1 cenital, casi duplicado."
+Andrés,2,2026-10-09,IMG_20261009_195921422_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Día 2. Apiladas en bandeja; sanas, algunas inmaduras."
+Andrés,2,2026-10-09,IMG_20261009_195926582_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Apiladas, acercamiento."
+Andrés,2,2026-10-09,IMG_20261009_195932046_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo contaminado (silla),media,Apiladas.
+Andrés,2,2026-10-09,IMG_20261009_195938852_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo oscuro,media,"Apiladas, acercamiento."
+Andrés,2,2026-10-09,IMG_20261009_195943805_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,media,Apiladas.
+Andrés,2,2026-10-09,IMG_20261009_195953844_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"Apiladas, cenital."
+Andrés,2,2026-10-09,IMG_20261009_195958986_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,media,Apiladas.
+Andrés,2,2026-10-09,IMG_20261009_200006315_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,BANDEJA,30,1,0,0,0,0,0,1,0,0,fondo oscuro,media,Acercamiento: un par algo más oscuras y mate.
+Andrés,2,2026-10-09,IMG_20261009_200206225_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,1,0,costal,alta,"P1 sueltas, sanas."
+Andrés,2,2026-10-09,IMG_20261009_200212063_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,0,0,costal,alta,P1 amontonadas.
+Andrés,2,2026-10-09,IMG_20261009_200218445_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,0,0,costal,alta,P1.
+Andrés,2,2026-10-09,IMG_20261009_200225822_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,1,0,fondo contaminado (pared),media,"P1, ángulo bajo."
+Andrés,2,2026-10-09,IMG_20261009_200230442_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,1,0,costal,media,"P1, cerca."
+Andrés,2,2026-10-09,IMG_20261009_200235416_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,1,0,costal,media,P1.
+Andrés,2,2026-10-09,IMG_20261009_200245296_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,G1 en grilla 4x5 (se rearmó): sanas.
+Andrés,2,2026-10-09,IMG_20261009_200249830_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,G1.
+Andrés,2,2026-10-09,IMG_20261009_200254164_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,"G1 cenital, cerca."
+Andrés,2,2026-10-09,IMG_20261009_200259721_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,fondo contaminado (silla),media,G1 ángulo bajo.
+Andrés,2,2026-10-09,IMG_20261009_200305939_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,fondo contaminado,media,G1 ángulo bajo.
+Andrés,2,2026-10-09,IMG_20261009_200311422_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,1,0,0,bandeja negra,media,G1 cerca; un par rojo vino.
+Andrés,2,2026-10-09,IMG_20261009_200316417_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,P1,10,1,0,0,0,0,0,0,1,0,costal,alta,P1 cerca.
+Andrés,2,2026-10-09,IMG_20261009_200320589_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,1,0,0,bandeja negra,media,G1 cerca.
+Andrés,2,2026-10-09,IMG_20261009_200324743_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,G1 cenital lejos.
+Andrés,2,2026-10-09,IMG_20261009_200329271_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,1,0,0,pelo sobre la fruta,media,G1 macro; pelo negro sobre una fresa (recortar).
+Andrés,2,2026-10-09,IMG_20261009_200333345_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,1,0,0,pelo sobre la fruta,media,G1 macro; mismo pelo.
+Andrés,2,2026-10-09,IMG_20261009_200337902_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,alta,G1 cenital.
+Andrés,2,2026-10-09,IMG_20261009_200350434_AE.jpg,Fresa Dia 2,1EVah3fW_16OiLkuhCQyYaK54o7ae5bnq,G1,20,1,0,0,0,0,0,0,1,0,fondo MUY contaminado (pared de piedra),media,G1 ángulo bajo; recortar.
+Andrés,3,2026-10-10,IMG_20261010_204947687_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,Día 3. Apiladas en bandeja (las volvió a apilar).
+Andrés,3,2026-10-10,IMG_20261010_204952084_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas; algunas rojo vino.
+Andrés,3,2026-10-10,IMG_20261010_204956277_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,media,Apiladas.
+Andrés,3,2026-10-10,IMG_20261010_204959888_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,Apiladas.
+Andrés,3,2026-10-10,IMG_20261010_205007877_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,bandeja negra,alta,Apiladas.
+Andrés,3,2026-10-10,IMG_20261010_205012029_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas.
+Andrés,3,2026-10-10,IMG_20261010_205018832_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas cenital.
+Andrés,3,2026-10-10,IMG_20261010_205024014_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,"fondo MUY contaminado (cocina, objetos)",baja-media,Ángulo bajo; recortar.
+Andrés,3,2026-10-10,IMG_20261010_205028909_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo MUY contaminado,baja-media,Ángulo bajo; recortar.
+Andrés,3,2026-10-10,IMG_20261010_205033599_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo MUY contaminado; borde naranja (dedo?),baja,Ángulo bajo; mancha naranja a la izquierda. Recortar.
+Andrés,3,2026-10-10,IMG_20261010_205037674_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo MUY contaminado,baja-media,Ángulo bajo.
+Andrés,3,2026-10-10,IMG_20261010_205042235_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,BANDEJA,30,1,0,0,0,0,0,0,1,0,fondo MUY contaminado,baja-media,Ángulo bajo.
+Andrés,3,2026-10-10,IMG_20261010_205217121_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,0,0,costal,alta,P1 sueltas sobre el costal; sanas.
+Andrés,3,2026-10-10,IMG_20261010_205222544_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,1,0,costal,alta,P1 cerca.
+Andrés,3,2026-10-10,IMG_20261010_205226655_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,1,0,costal,alta,P1 cerca.
+Andrés,3,2026-10-10,IMG_20261010_205231284_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,1,0,costal; fondo oscuro,media,P1.
+Andrés,3,2026-10-10,IMG_20261010_205234624_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,0,0,fondo contaminado (pared),media,P1 lejos.
+Andrés,3,2026-10-10,IMG_20261010_205238897_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,1,0,0,0,0,0,0,1,0,fondo contaminado,media,P1 ángulo bajo.
+Andrés,3,2026-10-10,IMG_20261010_205249400_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,P1,10,0,0,0,0,0,0,0,0,0,MUY desenfocada,baja,EXCLUIR: desenfocada.
+Andrés,3,2026-10-10,IMG_20261010_205254257_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,1,bandeja negra,media,G1 grilla 4x5; 2-3 más oscuras/mate (candidatas a moho temprano por etiquetado hacia atrás).
+Andrés,3,2026-10-10,IMG_20261010_205258658_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,fondo contaminado (pared de piedra),media,G1 ángulo bajo.
+Andrés,3,2026-10-10,IMG_20261010_205303073_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1 cerca.
+Andrés,3,2026-10-10,IMG_20261010_205307584_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1 cenital.
+Andrés,3,2026-10-10,IMG_20261010_205312462_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1.
+Andrés,3,2026-10-10,IMG_20261010_205316735_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1.
+Andrés,3,2026-10-10,IMG_20261010_205321008_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,1,bandeja negra,alta,G1 cerca; algunas opacas.
+Andrés,3,2026-10-10,IMG_20261010_205325187_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,media,G1 parcial.
+Andrés,3,2026-10-10,IMG_20261010_205328735_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,0,1,0,bandeja negra,media,G1 parcial.
+Andrés,3,2026-10-10,IMG_20261010_205332570_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1 cerca.
+Andrés,3,2026-10-10,IMG_20261010_205336954_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,media,G1 ángulo bajo.
+Andrés,3,2026-10-10,IMG_20261010_205343404_AE.jpg,Fresa Dia 3,1kIljpv2MvG2a9sKdE2ITdB9SxiS98zBQ,G1,20,1,0,0,0,0,0,1,1,0,bandeja negra,alta,G1 cenital lejos.
+Andrés,4,2026-10-11,IMG_20261011_203911226_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,media,"Día 4. Apiladas, lejos."
+Andrés,4,2026-10-11,IMG_20261011_203917123_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas; algunas opacas/arrugadas.
+Andrés,4,2026-10-11,IMG_20261011_203921668_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas.
+Andrés,4,2026-10-11,IMG_20261011_203926584_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,alta,Apiladas.
+Andrés,4,2026-10-11,IMG_20261011_203932258_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,fondo contaminado (silla),media,Ángulo bajo.
+Andrés,4,2026-10-11,IMG_20261011_203940106_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,bandeja negra,media,Apiladas.
+Andrés,4,2026-10-11,IMG_20261011_203946738_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,BANDEJA,30,1,0,0,0,0,0,1,1,0,fondo contaminado (objetos),media,Ángulo bajo.
+Andrés,4,2026-10-11,IMG_20261011_204042275_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,"P1 sueltas: rojo oscuro y opacas, empiezan a arrugarse (deshidratación). Sin pelusa."
+Andrés,4,2026-10-11,IMG_20261011_204047950_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,costal; fondo oscuro,alta,P1 ángulo bajo: arrugadas.
+Andrés,4,2026-10-11,IMG_20261011_204052624_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,costal; bandeja al fondo,alta,P1.
+Andrés,4,2026-10-11,IMG_20261011_204057687_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1 cerca.
+Andrés,4,2026-10-11,IMG_20261011_204121113_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1 lejos.
+Andrés,4,2026-10-11,IMG_20261011_204126915_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,fondo contaminado (silla),media,P1 ángulo bajo.
+Andrés,4,2026-10-11,IMG_20261011_204131541_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,0,1,0,0,fondo oscuro,media,P1 ángulo bajo.
+Andrés,4,2026-10-11,IMG_20261011_204137823_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,1,bandeja negra,media,"G1 grilla: varias opacas rojo vino; algunas con piel apagada (moho temprano probable, confirmar con día 5)."
+Andrés,4,2026-10-11,IMG_20261011_204142221_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,1,bandeja negra,media,G1.
+Andrés,4,2026-10-11,IMG_20261011_204146844_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,0,0,0,0,0,1,0,0,"fondo MUY contaminado (silla, pared)",baja-media,G1 ángulo bajo; recortar.
+Andrés,4,2026-10-11,IMG_20261011_204151515_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,1,bandeja negra,alta,G1 cenital.
+Andrés,4,2026-10-11,IMG_20261011_204155757_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,alta,"G1 cerca: fresas a la derecha opacas, rosadas y arrugadas = moho gris fase 1 (confirmado: el día 5 tienen pelusa)."
+Andrés,4,2026-10-11,IMG_20261011_204200871_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,4,2026-10-11,IMG_20261011_204207777_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,fondo contaminado (cocina),media,G1 ángulo bajo.
+Andrés,4,2026-10-11,IMG_20261011_204212394_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,media,G1.
+Andrés,4,2026-10-11,IMG_20261011_204216386_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,alta,G1 cenital.
+Andrés,4,2026-10-11,IMG_20261011_204245468_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,alta,G1 cenital.
+Andrés,4,2026-10-11,IMG_20261011_204252660_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,G1,20,1,1,0,0,0,0,1,0,0,bandeja negra,media,G1.
+Andrés,4,2026-10-11,IMG_20261011_204300714_AE.jpg,Fresa Dia 4,1_4RgthJ8qP6Uxi3t4VVinqgZ71V2xM2k,P1,10,0,0,0,0,0,1,1,0,0,costal,media,P1 cerca; jugo en el costal; arrugadas.
+Andrés,5,2026-10-12,IMG_20261012_192958284_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,"Día 5. Bandeja apilada: muchas con pelusa gris-blanca, sobre todo donde se tocan."
+Andrés,5,2026-10-12,IMG_20261012_193005067_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,"Apiladas cerca: pelusa gris en varias, tejido colapsado."
+Andrés,5,2026-10-12,IMG_20261012_193009865_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas cerca.
+Andrés,5,2026-10-12,IMG_20261012_193015546_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,5,2026-10-12,IMG_20261012_193019819_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,media,Apiladas lejos.
+Andrés,5,2026-10-12,IMG_20261012_193026479_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra; fondo oscuro,media,Apiladas.
+Andrés,5,2026-10-12,IMG_20261012_193032546_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,5,2026-10-12,IMG_20261012_193146273_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,"P1: arrugadas y oscuras, SIN pelusa. Contraste con G1."
+Andrés,5,2026-10-12,IMG_20261012_193150835_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1 cerca; jugo en el costal.
+Andrés,5,2026-10-12,IMG_20261012_193154752_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1.
+Andrés,5,2026-10-12,IMG_20261012_193158652_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1.
+Andrés,5,2026-10-12,IMG_20261012_193202878_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,"G1 cenital: ~8 con pelusa gris-verdosa, al lado de fresas sanas. Foto clave del experimento de contagio."
+Andrés,5,2026-10-12,IMG_20261012_193206771_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,5,2026-10-12,IMG_20261012_193210780_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,5,2026-10-12,IMG_20261012_193214787_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,5,2026-10-12,IMG_20261012_193320191_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra; fondo oscuro,alta,G1 lateral.
+Andrés,5,2026-10-12,IMG_20261012_193325140_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra; fondo oscuro,alta,G1 lateral.
+Andrés,5,2026-10-12,IMG_20261012_193331289_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca: pelusa blanco-gris muy clara.
+Andrés,5,2026-10-12,IMG_20261012_193336320_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,5,2026-10-12,IMG_20261012_193342445_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cenital.
+Andrés,5,2026-10-12,IMG_20261012_193346954_AE.jpg,Fresa Dia 5,1m0b0rEt4hwOynfRTPdPzuo_Jfo0WFFFZ,P1,10,0,0,0,0,0,1,1,0,0,costal,alta,"P1: arrugadas, jugo en el costal, sin pelusa."
+Andrés,6,2026-10-13,IMG_20261013_193748499_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Día 6. Bandeja apilada: mayoría con pelusa blanco-gris y tejido rosado colapsado.
+Andrés,6,2026-10-13,IMG_20261013_193809059_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193815740_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas cerca.
+Andrés,6,2026-10-13,IMG_20261013_193820739_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193825965_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,fondo contaminado (reja),media,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193831783_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193835575_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193840211_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra; fondo oscuro,media,Apiladas.
+Andrés,6,2026-10-13,IMG_20261013_193844409_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Casi duplicado de 193820739.
+Andrés,6,2026-10-13,IMG_20261013_193849615_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,BANDEJA,30,1,1,1,0,0,0,1,0,0,bandeja negra,media,Apiladas lejos.
+Andrés,6,2026-10-13,IMG_20261013_194020271_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,"P1: rojo vino, arrugadas, sin pelusa; jugo en el costal."
+Andrés,6,2026-10-13,IMG_20261013_194025017_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,P1,10,0,1,0,0,0,0,1,0,1,costal,media,P1: arrugadas; una o dos con zona rosada pálida (¿moho temprano o deshidratación?). Revisar.
+Andrés,6,2026-10-13,IMG_20261013_194029063_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,P1,10,0,1,0,0,0,0,1,0,1,costal,media,P1: igual; zona rosada pálida en una.
+Andrés,6,2026-10-13,IMG_20261013_194033656_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1.
+Andrés,6,2026-10-13,IMG_20261013_194038216_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,P1,10,0,0,0,0,0,0,1,0,0,costal,alta,P1 cerca.
+Andrés,6,2026-10-13,IMG_20261013_194042563_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cenital: ~12 con pelusa gris-verdosa al lado de sanas. Foto clave.
+Andrés,6,2026-10-13,IMG_20261013_194047370_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cerca.
+Andrés,6,2026-10-13,IMG_20261013_194051417_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1.
+Andrés,6,2026-10-13,IMG_20261013_194055352_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1.
+Andrés,6,2026-10-13,IMG_20261013_194059695_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cenital.
+Andrés,6,2026-10-13,IMG_20261013_194104146_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,1,0,0,1,0,1,bandeja negra,media,G1: dos fresas con micelio alto y algodonoso; si tienen puntos negros es Rhizopus. Revisar a mano.
+Andrés,6,2026-10-13,IMG_20261013_194108218_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1.
+Andrés,6,2026-10-13,IMG_20261013_194112090_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 lateral: pelusa gris-verdosa al lado de fresa sana. Foto clave.
+Andrés,6,2026-10-13,IMG_20261013_194116645_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1.
+Andrés,6,2026-10-13,IMG_20261013_194120318_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 lateral; pelusa gris en fila inferior y bordes.
+Andrés,6,2026-10-13,IMG_20261013_194124551_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,Lateral cercana; pelusa gris densa en fresas del frente.
+Andrés,6,2026-10-13,IMG_20261013_194129775_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,bandeja negra,alta,G1 cenital; pelusa en ~12.
+Andrés,6,2026-10-13,IMG_20261013_194139022_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,"fondo MUY contaminado sup (pared, cojín estampado)",media,Lateral bajo. Recortar.
+Andrés,6,2026-10-13,IMG_20261013_194142535_AE.jpg,Fresa Dia 6,112MmAugUu4S2_4-oV1IABs3bOeb_m_Zq,G1,20,1,1,1,0,0,0,1,0,0,fondo MUY contaminado sup,media,Igual. Recortar.
+Sara,1,2026-10-18,20261018_172727.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,"Día 1. Sana, vista lateral acostada."
+Sara,1,2026-10-18,20261018_173022.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,1,2026-10-18,20261018_173346.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,1,0,0,0,limpio,media,Sana con pequeñas marcas oscuras bajo el cáliz (roce).
+Sara,1,2026-10-18,20261018_173437.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,fondo sobreexpuesto,alta,Sana; foto más clara que el resto.
+Sara,1,2026-10-18,20261018_173504.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,1,2026-10-18,20261018_173530.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; leve zona oscura en flanco izquierdo.
+Sara,1,2026-10-18,20261018_173639.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; vista desde la punta.
+Sara,1,2026-10-18,20261018_173813.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros amarillos.
+Sara,1,2026-10-18,20261018_173818.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros amarillos; acercamiento.
+Sara,1,2026-10-18,20261018_173845.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Vista desde la punta; parche pálido (reflejo/inmadurez).
+Sara,1,2026-10-18,20261018_173906.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,"Sana; lateral acostada, base amarilla."
+Sara,1,2026-10-18,20261018_173923.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; acercamiento.
+Sara,1,2026-10-18,20261018_174007.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,1,0,1,0,limpio,media,Invertida; pequeña herida amarilla en el centro; base pálida.
+Sara,1,2026-10-18,20261018_174940.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,1,limpio,baja,Zona granular oscura en el flanco izquierdo: magulladura vs inicio de lesión. Seguir en días siguientes.
+Sara,1,2026-10-18,20261018_175008.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,"Macro: cicatrices amarillo-café superficiales (heridas/roce). Ejemplo de daño mecánico, puerta de entrada de hongos."
+Sara,1,2026-10-18,20261018_175015.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Macro: mismas heridas superficiales; casi duplicado.
+Sara,1,2026-10-18,20261018_175030.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Macro: herida amarilla superficial.
+Sara,1,2026-10-18,20261018_175042.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,1,0,0,0,limpio,media,Pequeña herida amarilla; punta levemente oscura.
+Sara,1,2026-10-18,20261018_175121.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,1,limpio,baja,Vista desde la punta; zona café en un flanco: magulladura probable.
+Sara,1,2026-10-18,20261018_175142.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Herida amarilla en el hombro.
+Sara,1,2026-10-18,20261018_175237.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Macro de piel sana.
+Sara,1,2026-10-18,20261018_175248.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,1,2026-10-18,20261018_175302.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; reflejos de luz.
+Sara,1,2026-10-18,20261018_175308.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,1,limpio,baja,Zona más oscura y mate en el centro-inferior: magulladura probable.
+Sara,1,2026-10-18,20261018_175334.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Macro: herida café-amarilla superficial.
+Sara,1,2026-10-18,20261018_175423.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,0,0,0,0,desenfocada,baja,EXCLUIR: macro del cáliz muy desenfocada.
+Sara,1,2026-10-18,20261018_175529.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,media,Macro: herida pequeña y marca en relieve.
+Sara,1,2026-10-18,20261018_175607.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros pálidos.
+Sara,1,2026-10-18,20261018_175622.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; base amarilla.
+Sara,1,2026-10-18,20261018_175638.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; base amarilla.
+Sara,1,2026-10-18,20261018_175735.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,1,2026-10-18,20261018_175807.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,1,2026-10-18,20261018_175820.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; lateral.
+Sara,1,2026-10-18,20261018_175831.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; base pálida.
+Sara,1,2026-10-18,20261018_180418.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; lateral con cáliz.
+Sara,1,2026-10-18,20261018_180504.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,media,Zona café-bronceada con cicatrices cerca del cáliz (roce/herida).
+Sara,1,2026-10-18,20261018_180524.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,media,Cicatrices café superficiales en el centro.
+Sara,1,2026-10-18,20261018_180538.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,media,Marcas lineales oscuras superficiales.
+Sara,1,2026-10-18,20261018_180612.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,0,0,0,0,desenfocada,baja,EXCLUIR: macro del cáliz desenfocada.
+Sara,1,2026-10-18,20261018_180642.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Zona bronceada con cicatrices bajo el cáliz: daño mecánico/roce.
+Sara,1,2026-10-18,20261018_180914.jpg,Fresas 1,1dAUDPiK4HXtk3JpbHe6yYQd37G6blIrA,G,10,1,0,0,0,0,0,0,0,0,limpio,alta,Foto grupal: 10 fresas en grilla 2x5 (referencia día 1). Sirve para seguir posiciones si la grilla se mantiene.
+Sara,3,2026-10-20,20261020_201514.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,G,10,1,0,0,0,0,0,1,0,0,limpio,media,"Foto grupal 2x5 (20 oct, 2 días después). Más oscuras que el día 1; sin moho visible."
+Sara,3,2026-10-20,20261020_201608.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,G,10,1,0,0,0,0,0,1,0,0,limpio,media,"Grupal 2x5, otro orden. Cambió la posición respecto al día 1."
+Sara,3,2026-10-20,20261020_201648.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,G,10,1,0,0,0,0,0,1,0,0,limpio,media,Grupal en anillo (10 fresas).
+Sara,3,2026-10-20,20261020_201722.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,G,10,1,0,0,0,0,0,1,0,0,limpio,media,"Grupal en anillo, más cerca."
+Sara,3,2026-10-20,20261020_201844.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, mate: inicio de sobremaduración."
+Sara,3,2026-10-20,20261020_201940.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Acercamiento: heridas amarillas puntuales (las del día 1).
+Sara,3,2026-10-20,20261020_202047.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; lateral.
+Sara,3,2026-10-20,20261020_202125.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,0,limpio,media,"Rojo oscuro, cicatrices café cerca del cáliz; empieza a arrugarse."
+Sara,3,2026-10-20,20261020_202147.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sara,3,2026-10-20,20261020_202232.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; base pálida.
+Sara,3,2026-10-20,20261020_202351.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Macro rojo oscuro con punto café pequeño.
+Sara,3,2026-10-20,20261020_202456.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,0,1,0,1,limpio,baja,Macro: zona mate sin brillo en la parte inferior; sobremadura vs moho temprano. Seguir.
+Sara,3,2026-10-20,20261020_202620.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,1,0,0,0,limpio,alta,Sana con heridas puntuales pequeñas.
+Sara,3,2026-10-20,20261020_202646.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Zona central más oscura y mate: magulladura/sobremadura.
+Sara,3,2026-10-20,20261020_202710.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Herida café en el centro; base pálida.
+Sara,3,2026-10-20,20261020_202739.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Herida amarilla en el hombro; punta oscura.
+Sara,3,2026-10-20,20261020_202756.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas amarillas; punta oscura.
+Sara,3,2026-10-20,20261020_202917.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,1,limpio,baja,Vista de la punta: zona granular oscura que ya se veía el día 1 (174940). Seguimiento.
+Sara,3,2026-10-20,20261020_202940.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,1,0,limpio,media,"Sana; base pálida, zona algo oscura."
+Sara,3,2026-10-20,20261020_202955.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,1,limpio,baja,Zona mate con puntos café hundidos: herida que se oscurece vs inicio de moho.
+Sara,3,2026-10-20,20261020_203022.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,1,0,1,limpio,baja,Misma fresa: puntos café hundidos y piel mate. Seguir el día siguiente.
+Sara,3,2026-10-20,20261020_203117.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Sana; algo bronceada junto al cáliz.
+Sara,3,2026-10-20,20261020_203133.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,0,0,limpio,media,Marcas bronceadas junto al cáliz.
+Sara,3,2026-10-20,20261020_203157.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,0,0,0,1,limpio,media,Zona café opaca junto al cáliz: moho gris fase 1 probable (sitio típico). Seguir.
+Sara,3,2026-10-20,20261020_203220.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,1,0,0,1,limpio,media,Zona café-bronceada hundida junto al cáliz: herida que pasa a moho gris fase 1. Seguir.
+Sara,3,2026-10-20,20261020_203247.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; base pálida.
+Sara,3,2026-10-20,20261020_203302.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Base pálida con heridas amarillas.
+Sara,3,2026-10-20,20261020_203328.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Muchas heridas amarillas junto al cáliz (roce/insecto). Buen ejemplo de daño mecánico.
+Sara,3,2026-10-20,20261020_203357.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Heridas amarillas junto al cáliz.
+Sara,3,2026-10-20,20261020_203540.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,1,limpio,baja,Zona oscura bajo el cáliz; base pálida.
+Sara,3,2026-10-20,20261020_203650.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Mancha gris-azulada opaca y hundida en el centro: moho gris temprano con inicio de pelusa. Buena para serie temporal.
+Sara,3,2026-10-20,20261020_203729.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,0,0,0,0,limpio,media,"Misma fresa, otro ángulo: mancha gris central."
+Sara,3,2026-10-20,20261020_203755.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,0,1,0,0,limpio,media,Rojo oscuro y mate: sobremaduración.
+Sara,3,2026-10-20,20261020_203814.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,0,0,0,0,1,0,1,0,limpio,media,Zona bronceada con cicatrices; base pálida.
+Sara,3,2026-10-20,20261020_203832.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,0,1,0,1,limpio,media,Rojo oscuro arrugado con zona gris-blanquecina cerca del cáliz: moho gris temprano + deshidratación.
+Sara,3,2026-10-20,20261020_203851.jpg,Fresas 2,1cqNCcrZ02OqX6jh8SrOwZwO8yUTfWGzI,S,1,0,1,0,0,0,0,1,0,0,limpio,media,Misma fresa: zona gris blanquecina hundida junto al cáliz.
+Sara,4,2026-10-21,20261021_201344.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal 2x5 (21 oct): unas 4-5 de 10 con micelio blanco-gris; el resto sanas u oscuras. Salto grande respecto al 20 oct.
+Sara,4,2026-10-21,20261021_201520.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal en anillo; mismas fresas.
+Sara,4,2026-10-21,20261021_201628.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,"Grupal 2x5, otro orden."
+Sara,4,2026-10-21,20261021_201709.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,"Grupal en anillo, más cerca."
+Sara,4,2026-10-21,20261021_201925.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,"Micelio blanco-gris algodonoso bajo el cáliz sobre tejido café: moho gris avanzado (empieza en el cáliz, como dice el atlas)."
+Sara,4,2026-10-21,20261021_202005.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,1,0,0,0,0,1,limpio,media,"Micelio blanco largo y sedoso (hifas altas) cubre 2/3 de la fresa; cáliz seco. Por la altura de las hifas parece Rhizopus más que Botrytis, pero no se ven cabezas negras. Revisar a mano: ejemplo clave."
+Sara,4,2026-10-21,20261021_202021.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,1,0,0,0,0,1,limpio,media,"Misma fresa, otra cara: hifas blancas largas en el flanco."
+Sara,4,2026-10-21,20261021_202105.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,1,limpio,media,Mancha café con moho blanco plano en un flanco y JUGO sobre el papel (goteo): moho gris avanzado vs pudrición blanda.
+Sara,4,2026-10-21,20261021_202135.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,1,limpio,media,"Misma fresa: zona café con capa blanca y puntos negros curvos (revisar: ¿esporangios, larvas o suciedad?)."
+Sara,4,2026-10-21,20261021_202156.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,1,limpio,media,"Misma fresa, otra cara; puntos negros."
+Sara,4,2026-10-21,20261021_202222.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,"Capa blanco-gris compacta en la punta y bajo el cáliz, tejido colapsado: moho gris avanzado."
+Sara,4,2026-10-21,20261021_202239.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Misma fresa: tejido café-naranja colapsado y capa blanco-gris.
+Sara,4,2026-10-21,20261021_202257.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,1,limpio,media,Rojo vino arrugado con zona café hundida en el centro: deshidratación + lesión a seguir.
+Sara,4,2026-10-21,20261021_202329.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Aparentemente sana; algo opaca.
+Sara,4,2026-10-21,20261021_202359.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, mate: sobremaduración."
+Sara,4,2026-10-21,20261021_202433.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, mate."
+Sara,4,2026-10-21,20261021_202506.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Herida amarilla; piel oscureciéndose.
+Sara,4,2026-10-21,20261021_202606.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Herida amarilla cerca del cáliz.
+Sara,4,2026-10-21,20261021_202627.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas amarillas.
+Sara,4,2026-10-21,20261021_202716.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Heridas bronceadas; rojo oscuro.
+Sara,4,2026-10-21,20261021_202744.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Rojo opaco-rosado con herida pequeña.
+Sara,4,2026-10-21,20261021_202804.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, mate."
+Sara,4,2026-10-21,20261021_202818.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Rojo oscuro con marcas bronceadas.
+Sara,4,2026-10-21,20261021_202827.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,1,0,0,limpio,media,Heridas bronceadas cerca del cáliz.
+Sara,4,2026-10-21,20261021_202916.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Heridas pequeñas; base amarilla.
+Sara,4,2026-10-21,20261021_202936.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Heridas bronceadas cerca del cáliz.
+Sara,4,2026-10-21,20261021_202944.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,1,0,limpio,alta,Casi duplicado de la anterior.
+Sara,4,2026-10-21,20261021_203007.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,1,0,0,0,0,1,0,0,0,limpio,alta,Casi sana; herida pequeña.
+Sara,4,2026-10-21,20261021_203024.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,1,0,0,0,0,1,0,0,0,limpio,alta,Casi sana; herida pequeña.
+Sara,4,2026-10-21,20261021_203050.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas amarillas puntuales.
+Sara,4,2026-10-21,20261021_203230.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Acercamiento: varias heridas bronceadas.
+Sara,4,2026-10-21,20261021_203326.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas pequeñas.
+Sara,4,2026-10-21,20261021_203337.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Casi duplicado.
+Sara,4,2026-10-21,20261021_203407.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas pequeñas; acercamiento.
+Sara,4,2026-10-21,20261021_203441.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Macro: herida bronceada con cicatriz.
+Sara,4,2026-10-21,20261021_203752.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Capa blanco-gris en la punta y el flanco: moho gris avanzado (misma fresa de 202222).
+Sara,4,2026-10-21,20261021_203759.jpg,Fresas 3,1TaMDF3bWmK7RRKy3uFIW9rTuSZ2bapJb,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Casi duplicado.
+Sara,5,2026-10-22,20261022_204659.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal 2x5 (22 oct): 5 fresas cubiertas de moho gris con zonas gris-negras (esporulación); 2-3 de la otra columna ya muestran manchas grises junto al cáliz (contagio). Manchas de jugo en el papel.
+Sara,5,2026-10-22,20261022_204758.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,"Grupal 2x5, casi duplicado."
+Sara,5,2026-10-22,20261022_204854.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal en anillo.
+Sara,5,2026-10-22,20261022_205039.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,"Grupal en anillo, casi duplicado."
+Sara,5,2026-10-22,20261022_205109.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal en anillo.
+Sara,5,2026-10-22,20261022_205231.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,G,10,1,1,1,0,0,0,1,0,0,limpio,alta,Grupal reordenada.
+Sara,5,2026-10-22,20261022_205439.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,1,0,0,limpio,media,"Heridas bronceadas, rojo oscuro."
+Sara,5,2026-10-22,20261022_205500.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Parche gris-blanquecino en el hombro (pelusa incipiente): moho gris temprano-transición. Fresa que estaba sana: contagio. Buena para póster.
+Sara,5,2026-10-22,20261022_205545.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas amarillas; manchitas grises en una herida (vigilar).
+Sara,5,2026-10-22,20261022_205552.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Casi duplicado.
+Sara,5,2026-10-22,20261022_205611.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Herida amarilla grande en el hombro.
+Sara,5,2026-10-22,20261022_205616.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Casi duplicado.
+Sara,5,2026-10-22,20261022_205629.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Heridas bronceadas bajo el cáliz.
+Sara,5,2026-10-22,20261022_205654.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,0,limpio,alta,Acercamiento a heridas amarillas.
+Sara,5,2026-10-22,20261022_205730.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Mancha gris junto al cáliz: moho gris temprano.
+Sara,5,2026-10-22,20261022_205740.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,1,limpio,baja,Velo gris tenue junto al cáliz: posible moho temprano.
+Sara,5,2026-10-22,20261022_205759.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, arrugada: deshidratación."
+Sara,5,2026-10-22,20261022_205836.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Rojo oscuro, mate."
+Sara,5,2026-10-22,20261022_205849.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Punto blanco de micelio en el centro sobre rojo aún brillante: moho gris muy temprano. Excelente para detección temprana.
+Sara,5,2026-10-22,20261022_205910.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Mancha café con velo gris bajo el cáliz: moho gris fase 1-2.
+Sara,5,2026-10-22,20261022_205923.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,1,0,0,0,limpio,media,Punto blanco pequeño en el hombro; heridas.
+Sara,5,2026-10-22,20261022_205954.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Flanco café-oscuro y mate: moho gris fase 1.
+Sara,5,2026-10-22,20261022_210010.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,"Halo café con mancha blanca en el centro: transición fase 1 a fase 2, ejemplo de libro."
+Sara,5,2026-10-22,20261022_210041.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Zona circular café sin pelusa: moho gris fase 1.
+Sara,5,2026-10-22,20261022_210109.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Flanco café-oscuro: moho gris fase 1.
+Sara,5,2026-10-22,20261022_210121.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Casi duplicado.
+Sara,5,2026-10-22,20261022_210134.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Halo café con pelusa blanca central: transición.
+Sara,5,2026-10-22,20261022_210223.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,1,0,0,0,limpio,alta,Invertida: zona café con velo blanco junto al cáliz + heridas.
+Sara,5,2026-10-22,20261022_210243.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Invertida: halo café amplio con velo blanco: moho gris.
+Sara,5,2026-10-22,20261022_210315.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,1,0,0,1,limpio,media,Heridas con zona café junto al cáliz.
+Sara,5,2026-10-22,20261022_210358.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,1,0,0,0,limpio,media,Zona café alrededor del cáliz con heridas: moho gris fase 1 entrando por heridas.
+Sara,5,2026-10-22,20261022_210502.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,fondo gris oscuro,alta,Pelusa gris oscura aterciopelada cubre la mitad del cáliz: moho gris avanzado de libro. Mejor ejemplo de Sara.
+Sara,5,2026-10-22,20261022_210519.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,"Misma fresa, fondo claro."
+Sara,5,2026-10-22,20261022_210533.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,1,0,0,0,fondo gris oscuro,alta,Pelusa gris bajo el cáliz + heridas.
+Sara,5,2026-10-22,20261022_210542.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,1,0,0,0,limpio,alta,"Misma fresa, acercamiento."
+Sara,5,2026-10-22,20261022_210554.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,1,0,0,0,1,0,0,1,limpio,media,Heridas con velo gris junto al cáliz.
+Sara,5,2026-10-22,20261022_210606.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris oscura (otra toma de 210502).
+Sara,5,2026-10-22,20261022_210628.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris cubre casi toda la fresa.
+Sara,5,2026-10-22,20261022_210641.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,1,limpio,media,Cubierta de gris con hifas largas en la punta: avanzado; hifas largas podrían ser Rhizopus/Mucor. Revisar.
+Sara,5,2026-10-22,20261022_210656.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,"Cubierta blanco-gris, colapsada: avanzado."
+Sara,5,2026-10-22,20261022_210725.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Blanco-gris sobre tejido colapsado.
+Sara,5,2026-10-22,20261022_210751.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Blanco-gris con centro café.
+Sara,5,2026-10-22,20261022_210825.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Moho gris avanzado: pelusa gris-negra y blanca sobre media fresa (esporulación).
+Sara,5,2026-10-22,20261022_210830.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Casi duplicado.
+Sara,5,2026-10-22,20261022_210904.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris cubre casi toda la fresa.
+Sara,5,2026-10-22,20261022_210917.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,fondo gris oscuro,alta,Gris-negro y blanco: moho gris avanzado.
+Sara,5,2026-10-22,20261022_211024.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris con parche blanco en el flanco.
+Sara,5,2026-10-22,20261022_211042.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,0,0,1,0,0,1,limpio,media,Otra cara: heridas amarillas; borde inferior con pelusa (misma fresa que 211024).
+Sara,5,2026-10-22,20261022_211158.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,1,0,0,0,0,1,fondo gris oscuro,media,Hifas blancas muy largas (barba) sobre fresa colapsada; es la fresa de 202005. Patrón de Rhizopus/Mucor; confirmar cabezas negras.
+Sara,5,2026-10-22,20261022_211213.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Misma fresa: hifas altas bajo el cáliz.
+Sara,5,2026-10-22,20261022_211225.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Misma fresa: hifas altas en el flanco.
+Sara,5,2026-10-22,20261022_211235.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,1,0,0,0,0,1,limpio,alta,"Hifas blancas altas tipo barba, distintas de la pelusa baja del moho gris: pudrición blanda probable. Mejor foto para contrastar Rhizopus vs Botrytis."
+Sara,5,2026-10-22,20261022_211244.jpg,Fresas 4,1JD7hWsa1jVTTYHa-yZbc4O5xeO7_Usn3,S,1,0,0,0,1,0,0,0,0,1,limpio,media,"Misma fresa, más avanzada."
+Sara,6,2026-10-23,20261023_222920.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,"23 oct, fresas individuales con encuadre fijo. Mancha café bajo el cáliz sin pelusa: moho gris fase 1."
+Sara,6,2026-10-23,20261023_222932.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris densa cubre 3/4 de la fresa: moho gris avanzado.
+Sara,6,2026-10-23,20261023_223025.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,1,0,0,0,1,0,0,0,limpio,alta,Halo café con punto blanco bajo el cáliz + heridas: transición fase 1-2.
+Sara,6,2026-10-23,20261023_223046.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,1,0,0,fondo gris oscuro,media,Cáliz seco; tejido oscuro con velo gris en la mitad inferior.
+Sara,6,2026-10-23,20261023_223117.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,1,0,0,0,1,1,0,0,limpio,media,Arrugada y opaca con velo blanquecino en el borde izquierdo y heridas.
+Sara,6,2026-10-23,20261023_223139.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,1,0,0,0,limpio,alta,Velo blanco-gris en el hombro izquierdo y flanco; heridas amarillas.
+Sara,6,2026-10-23,20261023_223218.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,1,0,0,fondo gris oscuro,alta,Pelusa gris en el flanco derecho; rojo oscuro.
+Sara,6,2026-10-23,20261023_223230.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,fondo gris oscuro,alta,Pelusa blanco-gris densa en el hombro izquierdo.
+Sara,6,2026-10-23,20261023_223317.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Macro: tejido café colapsado con velo blanco-gris: moho gris avanzado.
+Sara,6,2026-10-23,20261023_223339.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,1,0,0,0,1,0,0,0,limpio,media,Macro: heridas bronceadas con manchas café; borde inferior blanquecino.
+Sara,6,2026-10-23,20261023_223408.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Macro: pelusa gris en el flanco izquierdo.
+Sara,6,2026-10-23,20261023_223435.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Macro: pelusa gris aterciopelada densa bajo el cáliz. Textura de libro para moho gris.
+Sara,6,2026-10-23,20261023_223451.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Macro: capa blanco-gris en el flanco.
+Sara,6,2026-10-23,20261023_223533.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,1,0,0,0,limpio,alta,Velo blanco junto al cáliz + herida.
+Sara,6,2026-10-23,20261023_223537.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,1,0,0,limpio,media,Rojo oscuro con velo blanco en la base.
+Sara,6,2026-10-23,20261023_223623.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Hifas blancas altas sobre fresa rojo-rosada colapsada (misma fresa del 21 y 22 oct).
+Sara,6,2026-10-23,20261023_223641.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Hifas altas tipo barba alrededor del cáliz.
+Sara,6,2026-10-23,20261023_223703.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Hifas altas en la punta.
+Sara,6,2026-10-23,20261023_223746.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,0,0,0,0,0,0,limpio,alta,Pelusa gris-verdosa densa y baja: moho gris avanzado.
+Sara,6,2026-10-23,20261023_223758.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,0,limpio,alta,Hifas altas con PUNTAS NEGRAS (esporangios) junto a parche gris aterciopelado en la punta: Rhizopus + Botrytis en la misma fresa. La mejor evidencia de pudrición blanda del grupo.
+Sara,6,2026-10-23,20261023_223809.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,media,Pelusa gris en la punta con puntos negros caídos en el papel (esporas): avanzado; posible mezcla con Rhizopus.
+Sara,6,2026-10-23,20261023_223925.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,media,Gris aterciopelado + parche blanco algodonoso con puntos negros: atlas lo asigna a Rhizopus. Probable infección mixta.
+Sara,6,2026-10-23,20261023_223935.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,media,Blanco algodonoso + gris; polvo negro sobre el papel.
+Sara,6,2026-10-23,20261023_224018.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,fondo gris oscuro,alta,"Blanco algodonoso con puntos negros dentro de pelusa gris: mixta, muy buena para mostrar la diferencia visual."
+Sara,6,2026-10-23,20261023_224033.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,alta,Casi duplicado con fondo claro.
+Sara,6,2026-10-23,20261023_224057.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,media,Macro: gris con hifas blancas largas: mixta.
+Sara,6,2026-10-23,20261023_224105.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,1,1,0,0,0,0,1,limpio,media,Gris cubriendo todo con hifas largas.
+Sara,6,2026-10-23,20261023_224115.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,S,1,0,0,0,1,0,0,0,0,1,limpio,media,Hifas largas blancas cubriendo todo: pudrición blanda avanzada probable.
+Sara,6,2026-10-23,20261023_224203.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,G,10,1,1,1,1,0,0,1,0,0,limpio,alta,Grupal 2x5 (23 oct): unas 7-8 de 10 con moho; 2-3 aún sin lesión visible. Cierre de la serie del 18 al 23 oct.
+Sara,6,2026-10-23,20261023_224207.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,G,10,1,1,1,1,0,0,1,0,0,limpio,alta,Casi duplicado.
+Sara,6,2026-10-23,20261023_224247.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,G,10,1,1,1,1,0,0,1,0,0,limpio,alta,Grupal reordenada.
+Sara,6,2026-10-23,20261023_224332.jpg,Fresas 5,1GkVaaHq0sFTrrxSQr4-ESRcjfgqCbHxI,G,10,1,1,1,1,0,0,1,0,0,limpio,media,"Grupal reordenada, otra disposición."
+Sofía,1,2026-10-11,P1020265.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,1,1,0,1,limpio,media,Sobremadura rojo oscuro; mancha café-negra redonda y algo hundida en tercio inferior: magulladura vs antracnosis temprana. Revisar a mano.
+Sofía,1,2026-10-11,P1020267.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros blanco-amarillos (inmadura).
+Sofía,1,2026-10-11,P1020269.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,1,0,1,limpio,media,Rojo oscuro; parche opaco gris-rosado arrugado en hombro derecho: moho gris fase 1 probable.
+Sofía,1,2026-10-11,P1020270.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; mitad superior amarillo-verdosa (inmadura).
+Sofía,1,2026-10-11,P1020272.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros amarillos (inmadura).
+Sofía,1,2026-10-11,P1020273.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Sana; pequeña marca clara en tercio inferior (posible roce).
+Sofía,1,2026-10-11,P1020274.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sofía,1,2026-10-11,P1020275.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; cáliz fresco.
+Sofía,1,2026-10-11,P1020276.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,"Sana; rojo-naranja, punta algo pálida."
+Sofía,1,2026-10-11,P1020280.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,0,0,limpio,media,"Mancha café blanda en la punta, sin pelusa: moho gris fase 1 (empieza en la punta). Candidata para el póster."
+Sofía,1,2026-10-11,P1020281.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Inmadura: mitad superior blanca-amarilla; punto oscuro pequeño cerca de la punta.
+Sofía,1,2026-10-11,P1020282.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; cáliz fresco.
+Sofía,1,2026-10-11,P1020283.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,1,0,0,1,limpio,baja,Zona central opaca rojo-violácea sin brillo: moho gris temprano vs magulladura. Revisar a mano.
+Sofía,1,2026-10-11,P1020284.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Sana; leve oscurecimiento en flanco inferior izquierdo.
+Sofía,1,2026-10-11,P1020285.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros pálidos.
+Sofía,1,2026-10-11,P1020286.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana; brillante.
+Sofía,1,2026-10-11,P1020287.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,1,0,0,1,limpio,baja,"Zona más oscura y opaca en hombro derecho: magulladura probable, descartar moho temprano."
+Sofía,1,2026-10-11,P1020288.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Sana; hombros amarillos (inmadura).
+Sofía,1,2026-10-11,P1020289.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,0,0,limpio,media,"Película blanquecina opaca en el centro, tejido algo hundido: moho gris temprano/transición. Buena candidata."
+Sofía,1,2026-10-11,P1020290.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,"Sana; rojo-naranja, hombros pálidos."
+Sofía,1,2026-10-11,P1020291.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,1,0,limpio,media,Mancha café en la punta: moho gris fase 1. Hombros pálidos.
+Sofía,1,2026-10-11,P1020292.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,1,0,0,limpio,alta,Rojo oscuro; película blanquecina amplia sobre tejido colapsado: moho gris en transición a pelusa. Mejor ejemplo de Sofía.
+Sofía,1,2026-10-11,P1020293.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Sobremadura: rojo oscuro tirando a vino en mitad inferior, sin lesión clara."
+Sofía,1,2026-10-11,P1020294.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,limpio,alta,Inmadura: verde-amarilla casi completa.
+Sofía,1,2026-10-11,P1020295.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,1,0,1,limpio,media,"Lesión redonda, hundida y café-negra cerca del cáliz con halo gris-blanquecino. Moho gris probable (cerca del cáliz, halo gris); descartar antracnosis. Revisar a mano. Muy buena para póster."
+Sofía,1,2026-10-11,P1020296.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,0,limpio,alta,"Deshidratación: rojo oscuro, opaco, piel arrugada."
+Sofía,1,2026-10-11,P1020297.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,"Sana; forma lobulada, puntos oscuros pequeños."
+Sofía,1,2026-10-11,P1020298.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,1,0,1,limpio,media,Punto hundido café con centro gris bajo el cáliz y zona blanquecina en el cáliz: moho gris temprano probable; descartar antracnosis.
+Sofía,1,2026-10-11,P1020299.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,0,limpio,media,Deshidratación/sobremadura: opaca y arrugada en hombros.
+Sofía,1,2026-10-11,P1020300.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,1,0,0,1,limpio,baja,"Zona café difusa en el centro-inferior, sin borde nítido: magulladura vs moho fase 1."
+Sofía,1,2026-10-11,P1020301.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Sana; leve oscurecimiento en flanco izquierdo.
+Sofía,1,2026-10-11,P1020302.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,1,0,0,0,1,limpio,baja,Punto café redondo y hundido bajo el cáliz: antracnosis temprana posible vs moho gris. Revisar a mano.
+Sofía,1,2026-10-11,P1020303.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,0,0,limpio,alta,Zona café clara y colapsada justo bajo el cáliz: moho gris fase 1 típico del atlas. Candidata para póster.
+Sofía,1,2026-10-11,P1020304.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,media,Sana; algo opaca.
+Sofía,1,2026-10-11,P1020305.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,0,limpio,media,"Sobremadura/deshidratación: rojo oscuro, opaca; algo blanquecino en el cáliz."
+Sofía,1,2026-10-11,P1020306.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,0,limpio,media,Sobremadura: rojo oscuro con centro opaco.
+Sofía,1,2026-10-11,P1020307.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,0,1,0,1,limpio,baja,Rojo vino con reflejos/vetas blanquecinas: sobremadura; confirmar que lo blanco es reflejo y no micelio.
+Sofía,1,2026-10-11,P1020308.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,0,0,limpio,media,"Banda café bajo el cáliz, cáliz seco: moho gris fase 1 probable."
+Sofía,1,2026-10-11,P1020309.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,1,0,0,0,0,0,0,0,limpio,media,Punta café-oscura: moho gris fase 1 en la punta.
+Sofía,1,2026-10-11,P1020310.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sofía,1,2026-10-11,P1020311.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,1,0,0,0,0,1,limpio,media,"Punta colapsada, traslúcida, con micelio blanco algodonoso: pudrición blanda (Rhizopus) probable vs moho gris avanzado. No se ven esporangios negros a esta resolución. Revisar a mano; ejemplo valioso."
+Sofía,1,2026-10-11,P1020312.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,1,0,recortado sup,alta,Sana; hombros pálidos; encuadre corta el cáliz.
+Sofía,1,2026-10-11,P1020313.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,1,0,0,0,0,0,0,0,0,limpio,alta,Sana.
+Sofía,1,2026-10-11,P1020314.JPG,Fresas,1g4Yy2YiFlPJgZNGrwaQ0rFDlMVm5Vpr9,S,1,0,0,0,0,0,1,1,0,0,recortado sup,media,Rojo oscuro con zona rosada hundida en el hombro: magulladura.
