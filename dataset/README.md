@@ -23,6 +23,7 @@ dataset/
 │   ├── moho_gris/
 │   └── antracnosis/
 ├── etiquetas.csv     # una fila por imagen del dataset
+├── particiones.csv   # partición train / validation / test de cada imagen
 └── excluidas.csv     # imágenes que no entraron, con el motivo
 ```
 
@@ -126,7 +127,9 @@ Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `exclu
 
 ## Partición en train, validation y test
 
-El dataset todavía no está partido. Las fotos propias son series diarias de las mismas frutas, así que no deben repartirse al azar. Cada integrante siguió sus propias frutas durante varios días, por lo que conviene mantener juntas las fotos de cada integrante (columna `integrante`); si no, la misma fruta queda a la vez en entrenamiento y en prueba.
+La partición está en `particiones.csv`, con una fila por imagen, y se genera en la sección 7 de `va_analisis.ipynb`. Incluye solo mango y banano; la fresa aparece como `fuera del modelo`.
+
+Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar: las de Sofía Giraldo van todas a test, y las de Andrés Arbeláez y Diego Cifuentes se reparten entre train y validation por sesión (integrante y día). Las externas se reparten al azar, 70/15/15 dentro de cada clase. El resultado es 1.527 imágenes en train, 324 en validation y 351 en test.
 
 ## Cómo regenerarlo
 
@@ -141,4 +144,4 @@ python3 scripts/organizar_dataset.py \
     --salida dataset
 ```
 
-El script solo lee las carpetas de origen y vuelve a crear las carpetas de imágenes y las dos tablas.
+El script solo lee las carpetas de origen y vuelve a crear las carpetas de imágenes, `etiquetas.csv` y `excluidas.csv`. Después hay que volver a ejecutar la sección 7 del notebook para regenerar `particiones.csv`.
