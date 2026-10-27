@@ -258,17 +258,22 @@ def escribir_tablas(incluidos, excluidos, salida):
                         r['integrante'], r['camara'], r['fecha'], r['ancho_final'], r['alto_final'],
                         prefijo + r['ruta_original'], r['md5'], r['etiquetas_fresa']])
     columnas = ['ruta_original', 'fruta', 'carpeta_original', 'origen', 'fuente', 'integrante',
-                'fecha_captura', 'motivo', 'md5_original', 'etiquetas_fresa']
+                'fecha_captura', 'motivo', 'duplicado_de_original', 'duplicado_de_archivo',
+                'md5_original', 'etiquetas_fresa']
     with open(os.path.join(salida, 'excluidas.csv'), 'w', newline='', encoding='utf-8') as fh:
         w = csv.writer(fh)
         w.writerow(columnas)
         for r in sorted(excluidos, key=lambda x: (x['motivo'], x['ruta_original'])):
-            motivo = r['motivo']
+            motivo, original, nuevo = r['motivo'], '', ''
             if 'duplicado_de' in r:
-                motivo = 'Duplicado exacto de ' + r['duplicado_de']['archivo']
+                # Se nombra la imagen que quedó por su nombre original y por su nombre nuevo
+                original = prefijo + r['duplicado_de']['ruta_original']
+                nuevo = r['duplicado_de']['archivo']
+                motivo = (f"Duplicado exacto de {r['duplicado_de']['nombre']} "
+                          f"(en el dataset: {nuevo})")
             w.writerow([prefijo + r['ruta_original'], r['carpeta'].split('_')[0], r['carpeta'],
                         'propia' if r['fuente'] == 'Propia' else 'externa', r['fuente'],
-                        r['integrante'], r['fecha'], motivo, r['md5'], r['etiquetas_fresa']])
+                        r['integrante'], r['fecha'], motivo, original, nuevo, r['md5'], r['etiquetas_fresa']])
 
 
 def resumen(incluidos, excluidos):
