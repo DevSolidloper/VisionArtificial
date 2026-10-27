@@ -100,7 +100,7 @@ Las fotos con deshidratación, magulladura, pudrición blanda, *dudoso* o con m�
 
 ## Imágenes excluidas
 
-Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
+Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo. En los duplicados, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que sí quedó, con su nombre original y con su nombre en el dataset. Por ejemplo, `He163.jpg` es una copia de `He10.jpg`, que quedó como `mango/sano/mango_sano_0002.jpg`.
 
 | Motivo | Imágenes |
 |---|---|
