@@ -102,7 +102,7 @@ Las fotos con deshidratación, magulladura, pudrición blanda, *dudoso* o con m�
 
 Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo. En los duplicados, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que sí quedó, con su nombre original y con su nombre en el dataset. Por ejemplo, `He163.jpg` es una copia de `He10.jpg`, que quedó como `mango/sano/mango_sano_0002.jpg`.
 
-Para revisarlas a simple vista, `docs/verificacion/` tiene una hoja por fruta con cada duplicado junto a la imagen original que quedó (`duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`; en los 169 pares los píxeles son idénticos) y una hoja con las 274 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas (`fresas_excluidas.jpg`). Se generan con `scripts/hojas_verificacion.py` a partir de las carpetas originales del Drive.
+Para revisarlas a simple vista, `docs/verificacion/` tiene una hoja por fruta con cada duplicado junto a la imagen original que quedó (`duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`; en los 169 pares los píxeles son idénticos) una hoja con las 163 fotos de stock de banano sano excluidas (`banano_sano_stock.jpg`) y otra con las 274 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas (`fresas_excluidas.jpg`). Se generan con `scripts/hojas_verificacion.py` a partir de las carpetas originales del Drive.
 
 | Motivo | Imágenes |
 |---|---|

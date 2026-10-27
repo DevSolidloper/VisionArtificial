@@ -3,6 +3,8 @@
 - docs/verificacion/duplicados_<fruta>.jpg: cada duplicado excluido junto a la
   imagen original que sí quedó, con sus nombres originales y una comprobación
   de que sus píxeles son idénticos.
+- docs/verificacion/banano_sano_stock.jpg: las fotos de stock de banano sano
+  excluidas, rotadas o volteadas y sin su imagen original.
 - docs/verificacion/fresas_excluidas.jpg: las fotos propias de fresa que no
   entraron, agrupadas por motivo y con sus etiquetas.
 
@@ -137,6 +139,31 @@ def hoja_fresas(excluidas, origenes):
     return conteo
 
 
+def hoja_stock(excluidas, origenes):
+    """Las fotos de stock de banano sano excluidas: capturas de pantalla rotadas o volteadas."""
+    d = excluidas[excluidas["motivo"].str.startswith("Foto de stock")].copy()
+    d["nombre"] = d["ruta_original"].map(lambda r: Path(r).name)
+    d["captura"] = d["nombre"].str.replace(r"^(rotated_by_15_|vertical_flip_)", "", regex=True)
+    d = d.sort_values(["captura", "nombre"])
+    cols, alto_celda = 8, LADO + 36
+    filas = (len(d) + cols - 1) // cols
+    hoja = Image.new("RGB", (cols * (LADO + 10) + 10, 90 + filas * alto_celda), "white")
+    dib = ImageDraw.Draw(hoja)
+    dib.text((10, 10), f"Banano sano: {len(d)} fotos de stock excluidas, de {d['captura'].nunique()} capturas de pantalla distintas",
+             fill="black", font=F_TIT)
+    dib.text((10, 40), "Cada archivo es una captura de 2018 rotada 15° (rotated_by_15_) o volteada (vertical_flip_). "
+                       "La imagen original sin transformar no está en el Drive.", fill="#333333", font=F_TXT)
+    for i, r in enumerate(d.itertuples()):
+        x, y = 10 + (i % cols) * (LADO + 10), 90 + (i // cols) * alto_celda
+        hoja.paste(miniatura(ubicar(origenes, r.ruta_original)), (x, y))
+        tipo = "rotada 15°" if r.nombre.startswith("rotated") else "volteada"
+        hora = r.captura.replace("Screen Shot ", "").replace(".png", "")
+        dib.text((x, y + LADO + 2), tipo, fill="#b00020", font=F_TXT)
+        dib.text((x, y + LADO + 16), hora[:24], fill="black", font=F_TXT)
+    hoja.save(SALIDA / "banano_sano_stock.jpg", quality=80)
+    return len(d), d["captura"].nunique()
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--origen", nargs="+", required=True)
@@ -147,6 +174,8 @@ def main():
         r = hoja_duplicados(excluidas, origenes, fruta)
         if r:
             print(f"duplicados_{fruta}.jpg: {r[0]} pares, {r[1]} con píxeles idénticos")
+    n, capturas = hoja_stock(excluidas, origenes)
+    print(f"banano_sano_stock.jpg: {n} fotos de {capturas} capturas distintas")
     conteo = hoja_fresas(excluidas, origenes)
     print(f"fresas_excluidas.jpg: {conteo.sum()} fotos")
     print(conteo.to_string())
