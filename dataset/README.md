@@ -51,7 +51,7 @@ Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_004
 
 Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 60,6 % de la fresa y el 19,5 % del total.
 
-La fresa queda organizada y documentada, pero no entra al modelo de esta entrega: las fotos propias cubren sano y moho gris, y la única clase con imágenes públicas es antracnosis, que casi no aparece en las fotos propias.
+**Limitación de la fresa.** Cada clase proviene de una sola fuente: sano y moho gris, de fotos propias; antracnosis, de Roboflow. Un modelo podría aprender a distinguir la fuente y no la alteración, así que sus métricas deben reportarse por fuente.
 
 ## Fuentes
 
@@ -127,9 +127,9 @@ Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `exclu
 
 ## Partición en train, validation y test
 
-La partición está en `particiones.csv`, con una fila por imagen, y se genera en la sección 7 de `va_analisis.ipynb`. Incluye solo mango y banano; la fresa aparece como `fuera del modelo`.
+La partición está en `particiones.csv`, con una fila por imagen, y se genera en la sección 7 de `va_analisis.ipynb`. Incluye las tres frutas.
 
-Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar: las de Sofía Giraldo van todas a test, y las de Andrés Arbeláez y Diego Cifuentes se reparten entre train y validation por sesión (integrante y día). Las externas se reparten al azar, 70/15/15 dentro de cada clase. El resultado es 1.527 imágenes en train, 324 en validation y 351 en test.
+Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar: las de Sofía Giraldo van todas a test, y las de los demás integrantes se reparten entre train y validation por sesión (fruta, integrante y día). Las externas se reparten al azar, 70/15/15 dentro de cada clase, manteniendo juntas las imágenes casi idénticas. El resultado es 1.718 imágenes en train, 368 en validation y 395 en test.
 
 ## Cómo regenerarlo
 
