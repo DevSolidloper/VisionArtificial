@@ -23,6 +23,8 @@ dataset/
 │   ├── moho_gris/
 │   └── antracnosis/
 ├── etiquetas.csv     # una fila por imagen del dataset
+├── particiones.csv   # partición train / validation / test de cada imagen
+├── caracteristicas.csv  # características medidas en cada imagen (las usa la app)
 └── excluidas.csv     # imágenes que no entraron, con el motivo
 ```
 
@@ -50,7 +52,7 @@ Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_004
 
 Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 60,6 % de la fresa y el 19,5 % del total.
 
-La fresa queda organizada y documentada, pero no entra al modelo de esta entrega: las fotos propias cubren sano y moho gris, y la única clase con imágenes públicas es antracnosis, que casi no aparece en las fotos propias.
+**Limitación de la fresa.** Cada clase proviene de una sola fuente: sano y moho gris, de fotos propias; antracnosis, de Roboflow. Un modelo podría aprender a distinguir la fuente y no la alteración, así que sus métricas deben reportarse por fuente.
 
 ## Fuentes
 
@@ -126,7 +128,9 @@ Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `exclu
 
 ## Partición en train, validation y test
 
-El dataset todavía no está partido. Las fotos propias son series diarias de las mismas frutas, así que no deben repartirse al azar. Cada integrante siguió sus propias frutas durante varios días, por lo que conviene mantener juntas las fotos de cada integrante (columna `integrante`); si no, la misma fruta queda a la vez en entrenamiento y en prueba.
+La partición está en `particiones.csv`, con una fila por imagen, y se genera en la sección 7 de `va_analisis.ipynb`. Incluye las tres frutas.
+
+Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar: las de Sofía Giraldo van todas a test, y las de los demás integrantes se reparten entre train y validation por sesión (fruta, integrante y día). Las externas se reparten al azar, 70/15/15 dentro de cada clase, manteniendo juntas las imágenes casi idénticas. El resultado es 1.718 imágenes en train, 368 en validation y 395 en test.
 
 ## Cómo regenerarlo
 
@@ -141,4 +145,4 @@ python3 scripts/organizar_dataset.py \
     --salida dataset
 ```
 
-El script solo lee las carpetas de origen y vuelve a crear las carpetas de imágenes y las dos tablas.
+El script solo lee las carpetas de origen y vuelve a crear las carpetas de imágenes, `etiquetas.csv` y `excluidas.csv`. Después hay que volver a ejecutar la sección 7 del notebook para regenerar `particiones.csv`.

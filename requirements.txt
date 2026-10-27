@@ -1,0 +1,6 @@
+streamlit==1.50.0
+plotly==7.1.0
+opencv-python-headless==5.0.0.93
+pandas==2.3.3
+numpy==2.0.2
+pillow==11.3.0
