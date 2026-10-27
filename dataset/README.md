@@ -24,6 +24,7 @@ dataset/
 │   └── antracnosis/
 ├── etiquetas.csv     # una fila por imagen del dataset
 ├── particiones.csv   # partición train / validation / test de cada imagen
+├── caracteristicas.csv  # características medidas en cada imagen (las usa la app)
 └── excluidas.csv     # imágenes que no entraron, con el motivo
 ```
 
