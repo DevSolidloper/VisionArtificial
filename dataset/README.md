@@ -100,20 +100,44 @@ Las fotos con deshidratación, magulladura, pudrición blanda, *dudoso* o con m�
 
 ## Imágenes excluidas
 
-Hay 648 imágenes que no entraron. Todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo. En los duplicados, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que sí quedó, con su nombre original y con su nombre en el dataset. Por ejemplo, `He163.jpg` es una copia de `He10.jpg`, que quedó como `mango/sano/mango_sano_0002.jpg`.
-
-Para revisarlas a simple vista, `docs/verificacion/` tiene una hoja por fruta con cada duplicado junto a la imagen original que quedó (`duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`; en los 169 pares los píxeles son idénticos) una hoja con las 163 fotos de stock de banano sano excluidas (`banano_sano_stock.jpg`) y otra con las 274 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas (`fresas_excluidas.jpg`). Se generan con `scripts/hojas_verificacion.py` a partir de las carpetas originales del Drive.
+Hay 648 imágenes que no entraron. Ninguna se borró: todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
 
 | Motivo | Imágenes |
 |---|---|
 | Fotos propias de fresa con varias etiquetas o fuera de las tres clases | 274 |
-| Duplicados exactos: se conservó una sola copia (99 de mango, que ya venían repetidas en MangoDHDS; 40 de fresa y 30 de banano) | 169 |
-| Fotos de stock de banano sano, aumentadas (rotadas o volteadas) y sin la imagen original | 163 |
+| Duplicados exactos: se conservó una sola copia | 169 |
+| Fotos de stock de banano sano, aumentadas y sin la imagen original | 163 |
 | Clase descartada: pudrición de corona del banano | 36 |
 | Misma imagen guardada en dos clases de banano (3 pares) | 6 |
 | **Total** | **648** |
 
-## Columnas de `etiquetas.csv`
+**Duplicados exactos (169).** Son archivos idénticos byte a byte a otro que sí quedó: 99 de mango, 40 de fresa y 30 de banano. La comparación se hizo entre los archivos originales, antes de renombrar. En mango las copias ya venían dentro de los archivos de MangoDHDS, con nombres distintos (por ejemplo, `He163.jpg` es igual a `He10.jpg`). En banano y fresa la copia conserva el nombre original con un sufijo que agrega el sistema al copiar: ` - Copy` (Windows), ` copy` o ` 2` (Mac). En `excluidas.csv`, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que quedó, con su nombre original y con su nombre en el dataset.
+
+**Fotos de stock de banano sano (163).** Son capturas de pantalla de fotos de stock de 2018, rotadas 15° (107, prefijo `rotated_by_15_`) o volteadas (56, prefijo `vertical_flip_`), y la imagen sin transformar no está en el Drive. Corresponden a 135 capturas distintas: de 28 hay las dos versiones. Incluyen bananos pelados, en rodajas y sobre fondos de colores, que no son fotos de poscosecha; un modelo podría asociar el estilo de foto de stock con la clase sano, y las dos versiones de una misma captura podrían quedar en particiones distintas.
+
+**Fotos propias de fresa (274).** Las anotaciones registran todas las alteraciones visibles en cada foto, y muchas muestran varias fresas a la vez (125 de las 274 son fotos de grupo o de bandeja). Una foto solo entra si tiene una única clase (ver la sección anterior):
+
+| Motivo de exclusión | Fotos |
+|---|---|
+| Fresas sanas y con moho gris en la misma foto | 83 |
+| Con deshidratación | 80 |
+| Marcadas como *dudoso* | 56 |
+| Con magulladura o pudrición blanda | 52 |
+| Otras (solo *inmadura* o sin etiqueta) | 3 |
+
+**Hojas de verificación.** En `docs/verificacion/` están las imágenes excluidas a simple vista, tomadas de las carpetas originales del Drive:
+
+- `duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`: cada duplicado junto a la imagen que quedó; en los 169 pares los píxeles son idénticos.
+- `banano_sano_stock.jpg`: las 163 fotos de stock de banano sano.
+- `fresas_excluidas.jpg`: las 274 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas.
+
+**Imágenes casi idénticas.** Además de los duplicados exactos, hay 90 pares de imágenes que son la misma foto guardada con otra compresión: 55 en la antracnosis de fresa, 32 en mango y 3 en banano. No se excluyeron, pero la partición las mantiene siempre juntas (sección 7.1 del notebook).
+
+## Tablas
+
+### `etiquetas.csv`
+
+Una fila por imagen del dataset.
 
 | Columna | Contenido |
 |---|---|
@@ -128,23 +152,83 @@ Para revisarlas a simple vista, `docs/verificacion/` tiene una hoja por fruta co
 | `md5_original` | Huella del archivo original, para rastrearlo |
 | `etiquetas_fresa` | Anotaciones de la foto en `docs/etiquetas_fresa_grupo.csv` (solo fresas propias) |
 
+### `excluidas.csv`
+
+Una fila por imagen que no entró al dataset.
+
+| Columna | Contenido |
+|---|---|
+| `ruta_original` | Ruta de la imagen en el Drive |
+| `fruta`, `carpeta_original` | Fruta y carpeta del Drive donde estaba |
+| `origen`, `fuente`, `integrante`, `fecha_captura` | Igual que en `etiquetas.csv` |
+| `motivo` | Por qué se excluyó |
+| `duplicado_de_original` | En los duplicados, ruta original de la imagen que quedó |
+| `duplicado_de_archivo` | En los duplicados, nombre de la imagen que quedó dentro de `dataset/` |
+| `md5_original` | Huella del archivo original |
+| `etiquetas_fresa` | Anotaciones de la foto (solo fresas propias) |
+
+### `particiones.csv`
+
+Una fila por imagen del dataset, con las columnas `archivo`, `fruta`, `clase`, `origen`, `grupo` y `particion` (`train`, `validation` o `test`). Las imágenes del mismo `grupo` van siempre a la misma partición.
+
+### `caracteristicas.csv`
+
+Una fila por imagen, medida sobre una versión reducida a 256 px en su lado mayor. La genera `scripts/calcular_caracteristicas.py` y la usa la app de Streamlit.
+
+| Columna | Contenido |
+|---|---|
+| `brillo`, `contraste` | Media y desviación estándar del nivel de gris |
+| `rojo`, `verde`, `azul` | Media de cada canal RGB |
+| `brillo_fondo` | Media de gris en una franja del 5 % junto a los bordes |
+| `nitidez` | Varianza del Laplaciano |
+| `ruido` | Desviación estimada del ruido (máscara de Immerkær) |
+| `fraccion_fruta` | Fracción de la imagen ocupada por la fruta, con una segmentación aproximada (Otsu sobre la saturación) |
+| `L_fruta`, `a_fruta`, `b_fruta` | Color medio de la fruta en CIE L*a*b* |
+| `saturacion_fruta` | Saturación media de la fruta (HSV) |
+| `densidad_bordes` | Fracción de píxeles de borde (Canny) dentro de la fruta |
+| `tono_000` a `tono_350` | Histograma de tono (HSV) de la fruta, en 36 intervalos de 10° |
+
 ## Partición en train, validation y test
 
-La partición está en `particiones.csv`, con una fila por imagen, y se genera en la sección 7 de `va_analisis.ipynb`. Incluye las tres frutas.
+La partición se genera en la sección 7 de `va_analisis.ipynb` e incluye las tres frutas. Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar:
 
-Las fotos propias son series diarias de las mismas frutas, así que no se reparten al azar: las de Sofía Giraldo van todas a test, y las de los demás integrantes se reparten entre train y validation por sesión (fruta, integrante y día). Las externas se reparten al azar, 70/15/15 dentro de cada clase, manteniendo juntas las imágenes casi idénticas. El resultado es 1.718 imágenes en train, 368 en validation y 395 en test.
+- **Fotos propias de Sofía Giraldo:** todas en test, porque son frutas, cámara y fondo que el modelo no ve al entrenar.
+- **Fotos propias de los demás integrantes:** entre train y validation, por sesión (fruta, integrante y día).
+- **Externas:** al azar, 70/15/15 dentro de cada clase, manteniendo juntas las tomas en ráfaga, las versiones de una misma foto de Roboflow y las imágenes casi idénticas.
+
+| Fruta | Train | Validation | Test | Total |
+|---|---|---|---|---|
+| Mango | 768 | 167 | 166 | 1.101 |
+| Banano | 757 | 159 | 185 | 1.101 |
+| Fresa | 193 | 42 | 44 | 279 |
+| **Total** | **1.718** | **368** | **395** | **2.481** |
 
 ## Cómo regenerarlo
 
-Con las carpetas del Drive descargadas en `~/Downloads`:
+Con las carpetas del Drive descargadas en `~/Downloads`, desde la raíz del repositorio:
 
 ```bash
-python3 scripts/organizar_dataset.py \
-    --origen "$HOME/Downloads/Patologias de Frutas en Postcocecha" \
-             "$HOME/Downloads/Patologias de Frutas en Postcocecha 2" \
-             "$HOME/Downloads/Patologias de Frutas en Postcocecha 3" \
-    --etiquetas-fresa docs/etiquetas_fresa_grupo.csv \
-    --salida dataset
+ORIGEN=("$HOME/Downloads/Patologias de Frutas en Postcocecha" \
+        "$HOME/Downloads/Patologias de Frutas en Postcocecha 2" \
+        "$HOME/Downloads/Patologias de Frutas en Postcocecha 3")
+
+# 1. Imágenes, etiquetas.csv y excluidas.csv
+python3 scripts/organizar_dataset.py --origen "${ORIGEN[@]}" \
+    --etiquetas-fresa docs/etiquetas_fresa_grupo.csv --salida dataset
+
+# 2. particiones.csv: ejecutar la sección 7 de va_analisis.ipynb
+
+# 3. caracteristicas.csv, para la app
+python3 scripts/calcular_caracteristicas.py
+
+# 4. Hojas de docs/verificacion/
+python3 scripts/hojas_verificacion.py --origen "${ORIGEN[@]}"
 ```
 
-El script solo lee las carpetas de origen y vuelve a crear las carpetas de imágenes, `etiquetas.csv` y `excluidas.csv`. Después hay que volver a ejecutar la sección 7 del notebook para regenerar `particiones.csv`.
+Los scripts solo leen las carpetas de origen; nunca las modifican.
+
+## Pendientes
+
+- Nombre y enlace del dataset de Roboflow de la antracnosis de fresa.
+- Fuente de las 28 imágenes externas de banano sin identificar.
+- Confirmar si las imágenes del *Banana and Banana Leaf Dataset* vienen de su carpeta *Raw Data* o de *Augmented Data*.
