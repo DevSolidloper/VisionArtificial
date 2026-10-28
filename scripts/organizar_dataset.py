@@ -147,18 +147,36 @@ def fuente(r):
 def clase_fresa_propia(fila):
     """Clase de una foto propia de fresa según el CSV de anotaciones.
 
-    Entra solo si tiene una única clase de las tres del proyecto. "inmadura"
-    se acepta junto con sana. Cualquier otra etiqueta (deshidratación,
-    magulladura, pudrición blanda, dudoso) o una mezcla de clases la deja fuera.
+    Cada foto va a la clase de la alteración más grave que tenga:
+    - Con moho gris (temprano o avanzado) es moho_gris, aunque también tenga
+      fresas sanas, deshidratadas o magulladas.
+    - Con antracnosis es antracnosis.
+    - Sin enfermedades, con sana, deshidratación o inmadura, es sano: la
+      deshidratación no es una enfermedad.
+    Quedan fuera las fotos marcadas como dudosas, las que tienen dos
+    enfermedades a la vez, las de pudrición blanda (no es una de las tres
+    clases), las de magulladura sin enfermedad y las que no tienen etiqueta.
+
+    Devuelve (clase, None) si la foto entra, o (None, motivo) si no.
     """
-    etiquetas = {k for k in ETIQUETAS_FRESA if fila[k] == '1' and k != 'inmadura'}
-    if etiquetas == {'sana'}:
-        return 'sano'
-    if etiquetas and etiquetas <= {'moho_gris_temprano', 'moho_gris_avanzado'}:
-        return 'moho_gris'
-    if etiquetas == {'antracnosis'}:
-        return 'antracnosis'
-    return None
+    tiene = lambda k: fila[k] == '1'
+    if tiene('dudoso'):
+        return None, 'Fresa marcada como dudosa'
+    enfermedades = [nombre for nombre, presente in [
+        ('moho_gris', tiene('moho_gris_temprano') or tiene('moho_gris_avanzado')),
+        ('antracnosis', tiene('antracnosis')),
+        ('pudricion_blanda', tiene('pudricion_blanda'))] if presente]
+    if len(enfermedades) > 1:
+        return None, 'Fresa con dos enfermedades a la vez: ' + ' y '.join(enfermedades)
+    if enfermedades == ['pudricion_blanda']:
+        return None, 'Fresa con pudrición blanda, que no es una de las tres clases'
+    if enfermedades:
+        return enfermedades[0], None
+    if tiene('magulladura'):
+        return None, 'Fresa con magulladura y sin enfermedad'
+    if tiene('sana') or tiene('deshidratacion') or tiene('inmadura'):
+        return 'sano', None
+    return None, 'Fresa sin etiqueta'
 
 
 def decidir(registros, etiquetas_fresa):
@@ -186,9 +204,9 @@ def decidir(registros, etiquetas_fresa):
         if r['carpeta'] == 'fresa_propia':
             fila = anotaciones[r['nombre']]
             r['etiquetas_fresa'] = '+'.join(k for k in ETIQUETAS_FRESA if fila[k] == '1')
-            clase = clase_fresa_propia(fila)
+            clase, motivo = clase_fresa_propia(fila)
             if clase is None:
-                r['motivo'] = 'Fresa con varias etiquetas o fuera de las tres clases'
+                r['motivo'] = motivo
                 excluidos.append(r)
                 continue
             r['fruta'], r['clase'] = 'fresa', clase

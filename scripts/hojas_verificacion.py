@@ -92,37 +92,19 @@ def hoja_duplicados(excluidas, origenes, fruta):
 
 ABREV = {"sana": "S", "inmadura": "I", "moho_gris_temprano": "MGt", "moho_gris_avanzado": "MGa",
          "deshidratacion": "D", "magulladura": "Mg", "pudricion_blanda": "PB", "antracnosis": "A", "dudoso": "?"}
-MOTIVOS = ["Marcadas como dudosas", "Fresas sanas y con moho gris en la misma foto", "Con deshidratación",
-           "Con magulladura o pudrición blanda", "Otras"]
-
-
-def motivo_fresa(etiquetas):
-    """Mismo orden de motivos que se usó para explicar las exclusiones de fresa."""
-    t = set(str(etiquetas).split("+"))
-    if "dudoso" in t:
-        return MOTIVOS[0]
-    if "sana" in t and t & {"moho_gris_temprano", "moho_gris_avanzado"}:
-        return MOTIVOS[1]
-    if "deshidratacion" in t:
-        return MOTIVOS[2]
-    if t & {"magulladura", "pudricion_blanda"}:
-        return MOTIVOS[3]
-    return MOTIVOS[4]
-
-
 def hoja_fresas(excluidas, origenes):
     d = excluidas[(excluidas["fruta"] == "fresa") & (excluidas["origen"] == "propia")].copy()
-    d["motivo_fresa"] = d["etiquetas_fresa"].map(motivo_fresa)
+    d["motivo_fresa"] = d["motivo"].str.split(":").str[0].str.replace("Fresa ", "", regex=False).str.capitalize()
     cols, alto_celda = 8, LADO + 36
     conteo = d["motivo_fresa"].value_counts()
-    alto = 90 + sum(34 + ((conteo[m] + cols - 1) // cols) * alto_celda for m in MOTIVOS if m in conteo)
+    alto = 90 + sum(34 + ((n + cols - 1) // cols) * alto_celda for n in conteo)
     hoja = Image.new("RGB", (cols * (LADO + 10) + 10, alto), "white")
     dib = ImageDraw.Draw(hoja)
     dib.text((10, 10), f"Fresas propias excluidas: {len(d)}. Etiquetas de docs/etiquetas_fresa_grupo.csv", fill="black", font=F_TIT)
     dib.text((10, 40), "S sana · I inmadura · MGt moho gris temprano · MGa moho gris avanzado · D deshidratación · "
                        "Mg magulladura · PB pudrición blanda · A antracnosis · ? dudoso", fill="#333333", font=F_TXT)
     y = 90
-    for m in MOTIVOS:
+    for m in conteo.index:
         g = d[d["motivo_fresa"] == m].sort_values("ruta_original")
         if g.empty:
             continue
