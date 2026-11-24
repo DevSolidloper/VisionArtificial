@@ -44,13 +44,13 @@ Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_004
 | | Daño mecánico | 40 | 79 | 119 |
 | | Pecas de maduración | 100 | 15 | 115 |
 | | **Total banano** | **314** | **787** | **1.101** |
-| Fresa | Sano | 116 | 0 | 116 |
-| | Moho gris | 53 | 0 | 53 |
+| Fresa | Sano | 176 | 0 | 176 |
+| | Moho gris | 149 | 0 | 149 |
 | | Antracnosis | 0 | 110 | 110 |
-| | **Total fresa** | **169** | **110** | **279** |
-| **Total** | | **483** | **1.998** | **2.481** |
+| | **Total fresa** | **325** | **110** | **435** |
+| **Total** | | **639** | **1.998** | **2.637** |
 
-Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 60,6 % de la fresa y el 19,5 % del total.
+Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 74,7 % de la fresa y el 24,2 % del total.
 
 **Limitación de la fresa.** Cada clase proviene de una sola fuente: sano y moho gris, de fotos propias; antracnosis, de Roboflow. Un modelo podría aprender a distinguir la fuente y no la alteración, así que sus métricas deben reportarse por fuente.
 
@@ -58,7 +58,7 @@ Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 60,6 % de la fr
 
 | Fuente | Fruta y clases | Imágenes |
 |---|---|---|
-| Fotos propias del equipo | Banano (todas las clases) y fresa (sano y moho gris) | 483 |
+| Fotos propias del equipo | Banano (todas las clases) y fresa (sano y moho gris) | 639 |
 | MangoDHDS (Mendeley Data) | Mango (todas las clases) | 1.101 |
 | Banana and Banana Leaf Dataset (Mendeley Data) | Banano: antracnosis, daño mecánico y sano | 759 |
 | Roboflow | Fresa: antracnosis | 110 |
@@ -69,10 +69,10 @@ Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 60,6 % de la fr
 
 | Integrante | Cámara | Banano | Fresa |
 |---|---|---|---|
-| Andrés Arbeláez | Motorola Edge 50 Pro | 112 | 57 |
-| Diego Cifuentes | Samsung Galaxy A56 5G | 137 | 17 |
-| Sara Suárez | Samsung Galaxy A52 (SM-A525M) | 0 | 68 |
-| Sofía Giraldo | Panasonic DMC-FH25 | 65 | 27 |
+| Andrés Arbeláez | Motorola Edge 50 Pro | 112 | 141 |
+| Diego Cifuentes | Samsung Galaxy A56 5G | 137 | 48 |
+| Sara Suárez | Samsung Galaxy A52 (SM-A525M) | 0 | 103 |
+| Sofía Giraldo | Panasonic DMC-FH25 | 65 | 33 |
 
 **Atribución de las externas de banano.** Las 759 imágenes asignadas al *Banana and Banana Leaf Dataset* se identificaron por su tamaño (1000 × 750 px) y por el patrón de sus nombres. Las 28 externas sin identificar están pendientes de documentar.
 
@@ -90,46 +90,45 @@ Referencias:
 
 ## Clasificación de las fotos propias de fresa
 
-Las fotos propias de fresa se clasificaron con las anotaciones de `docs/etiquetas_fresa_grupo.csv`, que registran todas las alteraciones visibles en cada foto. Una foto entra a una clase solo si esa es su única etiqueta:
+Las fotos propias de fresa se clasificaron con las anotaciones de `docs/etiquetas_fresa_grupo.csv`, que registran todas las alteraciones visibles en cada foto. Cada foto va a la clase de la alteración más grave que tenga:
 
-- **sano:** solo *sana*, o *sana* con *inmadura*.
-- **moho_gris:** solo *moho gris temprano*, *moho gris avanzado* o ambas.
-- **antracnosis:** solo *antracnosis*.
+- **moho_gris:** tiene *moho gris* (temprano o avanzado), aunque también tenga fresas sanas, deshidratadas o magulladas. 90 de las 149 son fotos de grupo, donde el moho puede estar en una sola fresa entre varias sanas.
+- **antracnosis:** tiene *antracnosis*.
+- **sano:** no tiene enfermedades y tiene *sana*, *deshidratación* o *inmadura*. La deshidratación no es una enfermedad, así que la clase sano significa "sin moho gris ni antracnosis"; 60 de las 176 fotos sanas tienen deshidratación.
 
-Las fotos con deshidratación, magulladura, pudrición blanda, *dudoso* o con más de una clase quedan fuera.
+Quedan fuera las fotos marcadas como *dudoso*, las que tienen dos enfermedades a la vez, las de *pudrición blanda* (no es una de las tres clases), las de *magulladura* sin enfermedad y las que no tienen etiqueta.
 
 ## Imágenes excluidas
 
-Hay 648 imágenes que no entraron. Ninguna se borró: todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
+Hay 492 imágenes que no entraron. Ninguna se borró: todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
 
 | Motivo | Imágenes |
 |---|---|
-| Fotos propias de fresa con varias etiquetas o fuera de las tres clases | 274 |
 | Duplicados exactos: se conservó una sola copia | 169 |
 | Fotos de stock de banano sano, aumentadas y sin la imagen original | 163 |
+| Fotos propias de fresa que no cumplen la regla de clasificación | 118 |
 | Clase descartada: pudrición de corona del banano | 36 |
 | Misma imagen guardada en dos clases de banano (3 pares) | 6 |
-| **Total** | **648** |
+| **Total** | **492** |
 
 **Duplicados exactos (169).** Son archivos idénticos byte a byte a otro que sí quedó: 99 de mango, 40 de fresa y 30 de banano. La comparación se hizo entre los archivos originales, antes de renombrar. En mango las copias ya venían dentro de los archivos de MangoDHDS, con nombres distintos (por ejemplo, `He163.jpg` es igual a `He10.jpg`). En banano y fresa la copia conserva el nombre original con un sufijo que agrega el sistema al copiar: ` - Copy` (Windows), ` copy` o ` 2` (Mac). En `excluidas.csv`, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que quedó, con su nombre original y con su nombre en el dataset.
 
 **Fotos de stock de banano sano (163).** Son capturas de pantalla de fotos de stock de 2018, rotadas 15° (107, prefijo `rotated_by_15_`) o volteadas (56, prefijo `vertical_flip_`), y la imagen sin transformar no está en el Drive. Corresponden a 135 capturas distintas: de 28 hay las dos versiones. Incluyen bananos pelados, en rodajas y sobre fondos de colores, que no son fotos de poscosecha; un modelo podría asociar el estilo de foto de stock con la clase sano, y las dos versiones de una misma captura podrían quedar en particiones distintas.
 
-**Fotos propias de fresa (274).** Las anotaciones registran todas las alteraciones visibles en cada foto, y muchas muestran varias fresas a la vez (125 de las 274 son fotos de grupo o de bandeja). Una foto solo entra si tiene una única clase (ver la sección anterior):
+**Fotos propias de fresa (118).** Son las que la regla de la sección anterior deja fuera:
 
 | Motivo de exclusión | Fotos |
 |---|---|
-| Fresas sanas y con moho gris en la misma foto | 83 |
-| Con deshidratación | 80 |
 | Marcadas como *dudoso* | 56 |
-| Con magulladura o pudrición blanda | 52 |
-| Otras (solo *inmadura* o sin etiqueta) | 3 |
+| Con magulladura y sin enfermedad | 54 |
+| Con dos enfermedades a la vez (moho gris y pudrición blanda) | 5 |
+| Sin etiqueta | 3 |
 
 **Hojas de verificación.** En `docs/verificacion/` están las imágenes excluidas a simple vista, tomadas de las carpetas originales del Drive:
 
 - `duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`: cada duplicado junto a la imagen que quedó; en los 169 pares los píxeles son idénticos.
 - `banano_sano_stock.jpg`: las 163 fotos de stock de banano sano.
-- `fresas_excluidas.jpg`: las 274 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas.
+- `fresas_excluidas.jpg`: las 118 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas.
 
 **Imágenes casi idénticas.** Además de los duplicados exactos, hay 90 pares de imágenes que son la misma foto guardada con otra compresión: 55 en la antracnosis de fresa, 32 en mango y 3 en banano. No se excluyeron, pero la partición las mantiene siempre juntas (sección 7.1 del notebook).
 
@@ -200,8 +199,10 @@ La partición se genera en la sección 7 de `va_analisis.ipynb` e incluye las tr
 |---|---|---|---|---|
 | Mango | 768 | 167 | 166 | 1.101 |
 | Banano | 757 | 159 | 185 | 1.101 |
-| Fresa | 193 | 42 | 44 | 279 |
-| **Total** | **1.718** | **368** | **395** | **2.481** |
+| Fresa | 317 | 68 | 50 | 435 |
+| **Total** | **1.842** | **394** | **401** | **2.637** |
+
+En la fresa, el test tiene solo las 33 fotos propias de Sofía (26 sanas y 7 con moho gris) y las 17 de antracnosis de Roboflow, así que sus métricas por clase serán poco estables.
 
 ## Cómo regenerarlo
 
