@@ -48,6 +48,7 @@ st.set_page_config(page_title="Dataset poscosecha · Visión Artificial", page_i
 @st.cache_data
 def cargar_datos():
     e = pd.read_csv(DATASET / "etiquetas.csv")
+    e = e[e["aumento"] == 0]          # el análisis usa las imágenes reales; los aumentos solo se usan en train
     p = pd.read_csv(DATASET / "particiones.csv")[["archivo", "grupo", "particion"]]
     c = pd.read_csv(DATASET / "caracteristicas.csv")
     d = e.merge(p, on="archivo").merge(c, on="archivo")
@@ -62,7 +63,7 @@ def cargar_datos():
 def cargar_excluidas():
     x = pd.read_csv(DATASET / "excluidas.csv")
     x["motivo_corto"] = (x["motivo"].str.replace(r"^Duplicado exacto de .*", "Duplicado exacto", regex=True)
-                         .str.replace(r"^Misma imagen en dos clases: .*", "Misma imagen en dos clases", regex=True))
+                         .str.replace(r"^Copia de una imagen guardada en dos clases.*", "Copia de una imagen guardada en dos clases", regex=True))
     return x
 
 
@@ -555,7 +556,7 @@ def pagina_hallazgos():
 6. **Encuadre.** La fruta ocupa, en mediana, el {f(med.loc['MangoDHDS', 'fraccion_fruta'])} del cuadro en MangoDHDS y el {f(med.loc['Roboflow', 'fraccion_fruta'])} en Roboflow, pero solo el {f(med.loc['Propia', 'fraccion_fruta'])} en las fotos propias, donde suelen aparecer varias frutas, y el {f(med.loc['Banana and Banana Leaf Dataset', 'fraccion_fruta'])} en el dataset de banano de Mendeley. Todas las imágenes deberán llevarse a un mismo tamaño y encuadre de entrada.
 7. **Color.** En la fresa, el canal a* (rojo) baja de {num(a_fresa['sano'])} en sana a {num(a_fresa['moho_gris'])} en moho gris, como anticipa el atlas. En el banano, la clase sana es la única con a* negativo (más verde); en el mango lo son la sana y la sarna.
 8. **Textura.** La densidad de bordes separa las clases del mango: {num(bordes_m['sano'], 2)} en sano frente a {num(bordes_m['sarna'], 2)} en sarna y {num(bordes_m['antracnosis'], 2)} en antracnosis.
-9. **Fresa.** Cada clase proviene de una sola fuente: sana y moho gris, de fotos propias; antracnosis, de Roboflow. Sus métricas deben reportarse por fuente.
+9. **Fresa.** La antracnosis proviene solo de Roboflow, sin fotos propias. Sana y moho gris tienen fotos propias (poscosecha, sobre mesa) y externas (fotos de cultivo). Sus métricas deben reportarse por fuente.
 10. **Imágenes casi idénticas.** El notebook (sección 7.1) encontró 90 pares de imágenes casi idénticas: 55 en la antracnosis de fresa, 32 en mango y 3 en banano. Quedan siempre en la misma partición.
 11. **Transferencia a las fotos propias.** Un clasificador simple de centroide más cercano, entrenado con train sobre las características de esta app, acierta la clase del {f(acierto['externa'])} de las imágenes externas de banano en test, pero solo del {f(acierto['propia'])} de las fotos propias (las de Sofía Giraldo). Lo que se aprende de las externas no se transfiere bien a las propias (ver Separabilidad).
 """)

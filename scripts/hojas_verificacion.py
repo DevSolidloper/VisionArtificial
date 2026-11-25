@@ -41,11 +41,14 @@ F_TXT, F_TIT = fuente(12), fuente(20)
 def ubicar(origenes, ruta_original):
     """Encuentra el archivo original en alguna de las carpetas descargadas del Drive."""
     rel = unicodedata.normalize("NFC", ruta_original[len(PREFIJO):])
+    # En las descargas de carpetas de clase sueltas no está el prefijo Dataset/train/.
+    candidatas = [rel] + ([rel[len("Dataset/train/"):]] if rel.startswith("Dataset/train/") else [])
     for o in origenes:
-        for forma in ("NFC", "NFD"):
-            p = Path(o) / unicodedata.normalize(forma, rel)
-            if p.exists():
-                return p
+        for candidata in candidatas:
+            for forma in ("NFC", "NFD"):
+                p = Path(o) / unicodedata.normalize(forma, candidata)
+                if p.exists():
+                    return p
     raise FileNotFoundError(ruta_original)
 
 
