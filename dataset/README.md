@@ -85,7 +85,7 @@ Las fotos propias son el 0 % del mango, el 22,9 % del banano, el 35,8 % de la fr
 | Sara Suárez | Samsung Galaxy A52 (SM-A525M) | 0 | 159 |
 | Sofía Giraldo | Panasonic DMC-FH25 | 65 | 34 |
 
-**Atribución de las externas de banano.** Las 763 imágenes asignadas al *Banana and Banana Leaf Dataset* se identificaron por su tamaño (1000 × 750 px) y por el patrón de sus nombres. Las de Roboflow se reconocen por el sufijo `.rf.` de sus nombres. Las 28 externas sin identificar están pendientes de documentar.
+**Atribución de las externas de banano.** Las 763 imágenes asignadas al *Banana and Banana Leaf Dataset* se identificaron por su tamaño (1000 × 750 px) y por el patrón de sus nombres. Las de Roboflow se reconocen por el sufijo `.rf.` de sus nombres.
 
 Referencias:
 
@@ -242,12 +242,3 @@ python3 scripts/hojas_verificacion.py --origen "${ORIGEN[@]}" "${EXTRA[@]}"
 ```
 
 De las carpetas de `--origen-extra` solo se toman las imágenes que no estaban ya en las de `--origen`. Los scripts solo leen las carpetas de origen; nunca las modifican.
-
-## Pendientes
-
-- Nombre y enlace de los datasets de Roboflow: antracnosis y moho gris de fresa, daño mecánico y pecas de banano.
-- Fuente de las 263 imágenes externas de fresa sana (archivos `fresa_NNN`).
-- Fuente de las 28 imágenes externas de banano sin identificar.
-- Confirmar si las imágenes del *Banana and Banana Leaf Dataset* vienen de su carpeta *Raw Data* o de *Augmented Data*.
-- Revisar las 10 imágenes de daño mecánico de banano cuyo nombre original dice *rotten*: confirmar que son daño mecánico y no pudrición.
-- Las 48 imágenes de pecas tomadas de internet son fotos de stock, algunas con marca de agua; las 163 fotos de stock de banano sano siguen excluidas. Conviene unificar el criterio.
