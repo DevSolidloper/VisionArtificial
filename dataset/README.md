@@ -28,7 +28,7 @@ dataset/
 └── excluidas.csv     # imágenes que no entraron, con el motivo
 ```
 
-Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_0042.jpg`. Dentro de cada clase la numeración empieza por las fotos propias (ordenadas por integrante y fecha) y sigue con las externas.
+Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_0042.jpg`. Dentro de cada clase la numeración empieza por las fotos propias (ordenadas por integrante y fecha) sigue con las externas y termina con los aumentos.
 
 ## Cantidad de imágenes
 
@@ -40,41 +40,52 @@ Cada imagen se llama `<fruta>_<clase>_<NNNN>.jpg`, por ejemplo `banano_pecas_004
 | | Pudrición del extremo del pedúnculo | 0 | 300 | 300 |
 | | **Total mango** | **0** | **1.101** | **1.101** |
 | Banano | Sano | 66 | 68 | 134 |
-| | Antracnosis | 108 | 625 | 733 |
-| | Daño mecánico | 40 | 79 | 119 |
-| | Pecas de maduración | 100 | 15 | 115 |
-| | **Total banano** | **314** | **787** | **1.101** |
-| Fresa | Sano | 176 | 0 | 176 |
-| | Moho gris | 149 | 0 | 149 |
-| | Antracnosis | 0 | 110 | 110 |
-| | **Total fresa** | **325** | **110** | **435** |
-| **Total** | | **639** | **1.998** | **2.637** |
+| | Antracnosis | 108 | 628 | 736 |
+| | Daño mecánico | 40 | 198 | 238 |
+| | Pecas de maduración | 100 | 162 | 262 |
+| | **Total banano** | **314** | **1.056** | **1.370** |
+| Fresa | Sano | 230 | 263 | 493 |
+| | Moho gris | 154 | 230 | 384 |
+| | Antracnosis | 0 | 195 | 195 |
+| | **Total fresa** | **384** | **688** | **1.072** |
+| **Total** | | **698** | **2.845** | **3.543** |
 
-Las fotos propias son el 0 % del mango, el 28,5 % del banano, el 74,7 % de la fresa y el 24,2 % del total.
+Las fotos propias son el 0 % del mango, el 22,9 % del banano, el 35,8 % de la fresa y el 19,7 % del total.
 
-**Limitación de la fresa.** Cada clase proviene de una sola fuente: sano y moho gris, de fotos propias; antracnosis, de Roboflow. Un modelo podría aprender a distinguir la fuente y no la alteración, así que sus métricas deben reportarse por fuente.
+**Aumentos.** Además de las 3.543 imágenes reales, en `fresa/antracnosis/` hay 373 aumentos (rotaciones de fotos de antracnosis de Roboflow, archivos originales `aug_`) que subió el equipo. Tienen `aumento = 1` en `etiquetas.csv`, no se cuentan en las tablas y solo se usan en train: 259 entran a `particiones.csv` y 114 no se usan porque su foto original quedó en validation o test.
+
+**Limitaciones.**
+
+- **Banano desbalanceado:** antracnosis tiene 736 imágenes y sano 134 (razón 5,49).
+- **Antracnosis de fresa:** no tiene fotos propias; todas son de Roboflow.
+- **Fresa sana y moho gris:** las externas son fotos de cultivo y las propias son de poscosecha sobre mesa, así que las métricas deben reportarse por fuente.
+- **Imágenes ya aumentadas de origen:** las de Roboflow de banano (daño mecánico y pecas) repiten pocas frutas con rotaciones y cambios de color. En pecas se agrupan por el nombre de la foto original; en daño mecánico los nombres no lo permiten, así que versiones de una misma fruta pueden haber quedado en particiones distintas.
 
 ## Fuentes
 
 | Fuente | Fruta y clases | Imágenes |
 |---|---|---|
-| Fotos propias del equipo | Banano (todas las clases) y fresa (sano y moho gris) | 639 |
+| Fotos propias del equipo | Banano (todas las clases) y fresa (sano y moho gris) | 698 |
 | MangoDHDS (Mendeley Data) | Mango (todas las clases) | 1.101 |
-| Banana and Banana Leaf Dataset (Mendeley Data) | Banano: antracnosis, daño mecánico y sano | 759 |
-| Roboflow | Fresa: antracnosis | 110 |
+| Banana and Banana Leaf Dataset (Mendeley Data) | Banano: antracnosis (616), daño mecánico (79) y sano (68) | 763 |
+| Roboflow | Fresa: antracnosis (195) y moho gris (230). Banano: daño mecánico (118) y pecas (99) | 642 |
+| Externa sin identificar (archivos `fresa_NNN`, fresas en cultivo) | Fresa: sano | 263 |
+| Internet (fotos de stock y páginas web) | Banano: pecas | 48 |
 | Externa sin identificar, cámara OPPO (archivos `Day_`) | Banano: pecas | 15 |
 | Externa sin identificar (640 × 480 y 390 × 520 px) | Banano: antracnosis (12) y daño mecánico (1) | 13 |
+
+**Imágenes agregadas después del 27 de octubre.** El equipo subió al Drive 952 imágenes de fresa (230 de moho gris, 263 sanas, 85 de antracnosis y 374 aumentos de antracnosis, uno de ellos dañado) y 266 de banano (119 de daño mecánico y 147 de pecas), todas externas. Las de Roboflow de daño mecánico vienen de un dataset de madurez de banano (los nombres dicen *ripe*, *unripe* y *rotten*). Diez de las de pecas venían en formato webp o avif y se convirtieron a `.jpg`.
 
 **Fotos propias.** Las frutas se compraron en la Plaza Minorista de Medellín y en la Central Mayorista de Antioquia, y cada integrante fotografió las suyas día a día con su celular o cámara, siguiendo el protocolo de captura del Avance #1 (`docs/`). Cada foto propia se identifica por la cámara registrada en sus metadatos:
 
 | Integrante | Cámara | Banano | Fresa |
 |---|---|---|---|
-| Andrés Arbeláez | Motorola Edge 50 Pro | 112 | 141 |
+| Andrés Arbeláez | Motorola Edge 50 Pro | 112 | 143 |
 | Diego Cifuentes | Samsung Galaxy A56 5G | 137 | 48 |
-| Sara Suárez | Samsung Galaxy A52 (SM-A525M) | 0 | 103 |
-| Sofía Giraldo | Panasonic DMC-FH25 | 65 | 33 |
+| Sara Suárez | Samsung Galaxy A52 (SM-A525M) | 0 | 159 |
+| Sofía Giraldo | Panasonic DMC-FH25 | 65 | 34 |
 
-**Atribución de las externas de banano.** Las 759 imágenes asignadas al *Banana and Banana Leaf Dataset* se identificaron por su tamaño (1000 × 750 px) y por el patrón de sus nombres. Las 28 externas sin identificar están pendientes de documentar.
+**Atribución de las externas de banano.** Las 763 imágenes asignadas al *Banana and Banana Leaf Dataset* se identificaron por su tamaño (1000 × 750 px) y por el patrón de sus nombres. Las de Roboflow se reconocen por el sufijo `.rf.` de sus nombres. Las 28 externas sin identificar están pendientes de documentar.
 
 Referencias:
 
@@ -90,47 +101,44 @@ Referencias:
 
 ## Clasificación de las fotos propias de fresa
 
-Las fotos propias de fresa se clasificaron con las anotaciones de `docs/etiquetas_fresa_grupo.csv`, que registran todas las alteraciones visibles en cada foto. Cada foto va a la clase de la alteración más grave que tenga:
+Las fotos propias de fresa se clasificaron con las anotaciones de `docs/etiquetas_fresa_grupo.csv`, que registran todas las alteraciones visibles en cada foto. Ninguna foto se excluye por tener varias alteraciones: cada una va a la clase de la alteración más grave que tenga.
 
-- **moho_gris:** tiene *moho gris* (temprano o avanzado), aunque también tenga fresas sanas, deshidratadas o magulladas. 90 de las 149 son fotos de grupo, donde el moho puede estar en una sola fresa entre varias sanas.
-- **antracnosis:** tiene *antracnosis*.
-- **sano:** no tiene enfermedades y tiene *sana*, *deshidratación* o *inmadura*. La deshidratación no es una enfermedad, así que la clase sano significa "sin moho gris ni antracnosis"; 60 de las 176 fotos sanas tienen deshidratación.
+- **moho_gris:** tiene *moho gris* (temprano o avanzado), aunque también tenga pudrición blanda, magulladura, deshidratación o fresas sanas. En 83 de las 154 fotos también hay fresas sanas, así que el moho puede estar en una sola fresa entre varias.
+- **antracnosis:** tiene *antracnosis* y no tiene moho gris. Ninguna foto propia quedó en esta clase.
+- **sano:** no tiene enfermedades y tiene *sana*, *deshidratación*, *inmadura* o *magulladura*. Ni la deshidratación ni la magulladura son enfermedades, así que la clase sano significa "sin moho gris ni antracnosis"; 72 de las 230 fotos sanas tienen deshidratación y 54 tienen magulladura.
 
-Quedan fuera las fotos marcadas como *dudoso*, las que tienen dos enfermedades a la vez, las de *pudrición blanda* (no es una de las tres clases), las de *magulladura* sin enfermedad y las que no tienen etiqueta.
+Quedan fuera las fotos marcadas como *dudoso*, las que solo tienen *pudrición blanda* (no es una de las tres clases) y las que no tienen etiqueta.
+
+La misma regla se aplica a una imagen guardada en dos carpetas de clase del Drive: queda una sola vez, en la clase más grave. Pasa con tres imágenes de banano, que quedaron en antracnosis.
 
 ## Imágenes excluidas
 
-Hay 492 imágenes que no entraron. Ninguna se borró: todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
+Hay 458 imágenes que no entraron. Ninguna se borró: todas siguen en el Drive y aparecen en `excluidas.csv` con su ruta original y el motivo.
 
 | Motivo | Imágenes |
 |---|---|
-| Duplicados exactos: se conservó una sola copia | 169 |
+| Duplicados exactos: se conservó una sola copia | 196 |
 | Fotos de stock de banano sano, aumentadas y sin la imagen original | 163 |
-| Fotos propias de fresa que no cumplen la regla de clasificación | 118 |
+| Fotos propias de fresa marcadas como *dudoso* | 56 |
 | Clase descartada: pudrición de corona del banano | 36 |
-| Misma imagen guardada en dos clases de banano (3 pares) | 6 |
-| **Total** | **492** |
+| Copia de una imagen guardada en dos clases de banano (quedó la de antracnosis) | 3 |
+| Fotos propias de fresa sin etiqueta | 3 |
+| Archivo dañado (0 bytes): un aumento de antracnosis de fresa | 1 |
+| **Total** | **458** |
 
-**Duplicados exactos (169).** Son archivos idénticos byte a byte a otro que sí quedó: 99 de mango, 40 de fresa y 30 de banano. La comparación se hizo entre los archivos originales, antes de renombrar. En mango las copias ya venían dentro de los archivos de MangoDHDS, con nombres distintos (por ejemplo, `He163.jpg` es igual a `He10.jpg`). En banano y fresa la copia conserva el nombre original con un sufijo que agrega el sistema al copiar: ` - Copy` (Windows), ` copy` o ` 2` (Mac). En `excluidas.csv`, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que quedó, con su nombre original y con su nombre en el dataset.
+**Duplicados exactos (196).** Son archivos idénticos byte a byte a otro que sí quedó: 99 de mango, 57 de banano y 40 de fresa. La comparación se hizo entre los archivos originales, antes de renombrar. En mango las copias ya venían dentro de los archivos de MangoDHDS, con nombres distintos (por ejemplo, `He163.jpg` es igual a `He10.jpg`). En banano y fresa la copia conserva el nombre original con un sufijo que agrega el sistema al copiar: ` - Copy` (Windows), ` copy`, ` 2` (Mac) o `(1)`. En `excluidas.csv`, las columnas `duplicado_de_original` y `duplicado_de_archivo` dicen cuál es la imagen que quedó, con su nombre original y con su nombre en el dataset.
 
 **Fotos de stock de banano sano (163).** Son capturas de pantalla de fotos de stock de 2018, rotadas 15° (107, prefijo `rotated_by_15_`) o volteadas (56, prefijo `vertical_flip_`), y la imagen sin transformar no está en el Drive. Corresponden a 135 capturas distintas: de 28 hay las dos versiones. Incluyen bananos pelados, en rodajas y sobre fondos de colores, que no son fotos de poscosecha; un modelo podría asociar el estilo de foto de stock con la clase sano, y las dos versiones de una misma captura podrían quedar en particiones distintas.
 
-**Fotos propias de fresa (118).** Son las que la regla de la sección anterior deja fuera:
-
-| Motivo de exclusión | Fotos |
-|---|---|
-| Marcadas como *dudoso* | 56 |
-| Con magulladura y sin enfermedad | 54 |
-| Con dos enfermedades a la vez (moho gris y pudrición blanda) | 5 |
-| Sin etiqueta | 3 |
+**Fotos propias de fresa (59).** Las 56 marcadas como *dudoso* y las 3 sin etiqueta. Las 54 con magulladura y sin enfermedad y las 5 con moho gris y pudrición blanda, que antes se excluían, ahora entran a sano y a moho gris.
 
 **Hojas de verificación.** En `docs/verificacion/` están las imágenes excluidas a simple vista, tomadas de las carpetas originales del Drive:
 
-- `duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`: cada duplicado junto a la imagen que quedó; en los 169 pares los píxeles son idénticos.
+- `duplicados_mango.jpg`, `duplicados_banano.jpg` y `duplicados_fresa.jpg`: cada duplicado junto a la imagen que quedó; en los 196 pares los píxeles son idénticos.
 - `banano_sano_stock.jpg`: las 163 fotos de stock de banano sano.
-- `fresas_excluidas.jpg`: las 118 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas.
+- `fresas_excluidas.jpg`: las 59 fotos propias de fresa excluidas, agrupadas por motivo y con sus etiquetas.
 
-**Imágenes casi idénticas.** Además de los duplicados exactos, hay 90 pares de imágenes que son la misma foto guardada con otra compresión: 55 en la antracnosis de fresa, 32 en mango y 3 en banano. No se excluyeron, pero la partición las mantiene siempre juntas (sección 7.1 del notebook).
+**Imágenes casi idénticas.** Además de los duplicados exactos, hay 150 pares de imágenes que son la misma foto guardada con otra compresión: 68 en la antracnosis de fresa, 1 en el moho gris de fresa, 46 en las pecas de banano, 3 en la antracnosis de banano y 32 en mango. No se excluyeron, pero la partición las mantiene siempre juntas (sección 7.1 del notebook).
 
 ## Tablas
 
@@ -150,6 +158,7 @@ Una fila por imagen del dataset.
 | `ruta_original` | Ruta de la imagen en el Drive |
 | `md5_original` | Huella del archivo original, para rastrearlo |
 | `etiquetas_fresa` | Anotaciones de la foto en `docs/etiquetas_fresa_grupo.csv` (solo fresas propias) |
+| `aumento` | 1 si la imagen es un aumento (rotación) de otra foto; 0 si es una imagen real |
 
 ### `excluidas.csv`
 
@@ -168,7 +177,7 @@ Una fila por imagen que no entró al dataset.
 
 ### `particiones.csv`
 
-Una fila por imagen del dataset, con las columnas `archivo`, `fruta`, `clase`, `origen`, `grupo` y `particion` (`train`, `validation` o `test`). Las imágenes del mismo `grupo` van siempre a la misma partición.
+Una fila por imagen usada para entrenar o evaluar (las imágenes reales y los aumentos que entran a train), con las columnas `archivo`, `fruta`, `clase`, `origen`, `grupo`, `particion` (`train`, `validation` o `test`) y `aumento`. Las imágenes del mismo `grupo` van siempre a la misma partición.
 
 ### `caracteristicas.csv`
 
@@ -194,15 +203,18 @@ La partición se genera en la sección 7 de `va_analisis.ipynb` e incluye las tr
 - **Fotos propias de Sofía Giraldo:** todas en test, porque son frutas, cámara y fondo que el modelo no ve al entrenar.
 - **Fotos propias de los demás integrantes:** entre train y validation, por sesión (fruta, integrante y día).
 - **Externas:** al azar, 70/15/15 dentro de cada clase, manteniendo juntas las tomas en ráfaga, las versiones de una misma foto de Roboflow y las imágenes casi idénticas.
+- **Aumentos:** solo en train, y solo si su foto original también quedó en train (o no está en el dataset).
 
 | Fruta | Train | Validation | Test | Total |
 |---|---|---|---|---|
-| Mango | 768 | 167 | 166 | 1.101 |
-| Banano | 757 | 159 | 185 | 1.101 |
-| Fresa | 317 | 68 | 50 | 435 |
-| **Total** | **1.842** | **394** | **401** | **2.637** |
+| Mango | 770 | 165 | 166 | 1.101 |
+| Banano | 946 | 198 | 226 | 1.370 |
+| Fresa | 782 | 150 | 140 | 1.072 |
+| **Total** | **2.498** | **513** | **532** | **3.543** |
 
-En la fresa, el test tiene solo las 33 fotos propias de Sofía (26 sanas y 7 con moho gris) y las 17 de antracnosis de Roboflow, así que sus métricas por clase serán poco estables.
+Con los 259 aumentos de antracnosis de fresa, train tiene 2.757 imágenes y `particiones.csv` 3.802 filas. En train la fresa queda con 354 sanas, 292 de moho gris y 395 de antracnosis (136 reales y 259 aumentos).
+
+En la fresa, el test tiene 140 imágenes: 67 sanas, 42 de moho gris y 31 de antracnosis. De ellas, 34 son las fotos propias de Sofía (27 sanas y 7 con moho gris).
 
 ## Cómo regenerarlo
 
@@ -212,9 +224,12 @@ Con las carpetas del Drive descargadas en `~/Downloads`, desde la raíz del repo
 ORIGEN=("$HOME/Downloads/Patologias de Frutas en Postcocecha" \
         "$HOME/Downloads/Patologias de Frutas en Postcocecha 2" \
         "$HOME/Downloads/Patologias de Frutas en Postcocecha 3")
+# Descargas posteriores de carpetas de clase sueltas de Dataset/train/ (fresa y mango; banano)
+EXTRA=("$HOME/Downloads/drive-download-20261125T172554Z-1-001" \
+       "$HOME/Downloads/drive-download-20261125T174856Z-1-001")
 
 # 1. Imágenes, etiquetas.csv y excluidas.csv
-python3 scripts/organizar_dataset.py --origen "${ORIGEN[@]}" \
+python3 scripts/organizar_dataset.py --origen "${ORIGEN[@]}" --origen-extra "${EXTRA[@]}" \
     --etiquetas-fresa docs/etiquetas_fresa_grupo.csv --salida dataset
 
 # 2. particiones.csv: ejecutar la sección 7 de va_analisis.ipynb
@@ -223,13 +238,16 @@ python3 scripts/organizar_dataset.py --origen "${ORIGEN[@]}" \
 python3 scripts/calcular_caracteristicas.py
 
 # 4. Hojas de docs/verificacion/
-python3 scripts/hojas_verificacion.py --origen "${ORIGEN[@]}"
+python3 scripts/hojas_verificacion.py --origen "${ORIGEN[@]}" "${EXTRA[@]}"
 ```
 
-Los scripts solo leen las carpetas de origen; nunca las modifican.
+De las carpetas de `--origen-extra` solo se toman las imágenes que no estaban ya en las de `--origen`. Los scripts solo leen las carpetas de origen; nunca las modifican.
 
 ## Pendientes
 
-- Nombre y enlace del dataset de Roboflow de la antracnosis de fresa.
+- Nombre y enlace de los datasets de Roboflow: antracnosis y moho gris de fresa, daño mecánico y pecas de banano.
+- Fuente de las 263 imágenes externas de fresa sana (archivos `fresa_NNN`).
 - Fuente de las 28 imágenes externas de banano sin identificar.
 - Confirmar si las imágenes del *Banana and Banana Leaf Dataset* vienen de su carpeta *Raw Data* o de *Augmented Data*.
+- Revisar las 10 imágenes de daño mecánico de banano cuyo nombre original dice *rotten*: confirmar que son daño mecánico y no pudrición.
+- Las 48 imágenes de pecas tomadas de internet son fotos de stock, algunas con marca de agua; las 163 fotos de stock de banano sano siguen excluidas. Conviene unificar el criterio.
